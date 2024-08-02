@@ -1,0 +1,46 @@
+org_uuid|org_name|dba_name|location_id|location_desc|org_type_id|org_type_desc|org_status_id|org_status_desc|corp_account_id
+9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Stark Industries|Stark Enterprises|1|Malibu, California|1|Corporation|1|Active|1001
+8e8f8d7a-5c4d-4b3a-a2e1-c3d5a4f3b2c5|Stark Resilient||2|New York, New York|1|Corporation|1|Active|1001
+7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Hammer Industries||3|Queens, New York|1|Corporation|2|Acquired|1002
+6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|Pym Technologies||4|San Francisco, California|1|Corporation|1|Active|1003
+5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|Oscorp Industries||5|Manhattan, New York|1|Corporation|3|Inactive|1004
+4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|Roxxon Corporation||6|Dallas, Texas|1|Corporation|1|Active|1005
+3c3b3a2f-5a4b-4e3d-a2b1-c5e4f3d2b3a5|Damage Control||7|Newark, New Jersey|1|Corporation|1|Active|1006
+2b2a2d1e-4f3c-4b5a-a2c3-c4b5f3a2e1d5|SHIELD|Strategic Homeland Intervention, Enforcement, and Logistics Division|8|Washington, D.C.|2|Government Agency|1|Active|1007
+1a1b1c2d-5e3f-4b2a-a3d5-b5c4f3e2a5b5|HYDRA||9|Global|3|Terrorist Organization|4|Defunct|1008
+9c9b9a8e-3d2f-4b4a-a1c5-c3d2e5b1f4a5|AIM|Advanced Idea Mechanics|10|Miami, Florida|1|Corporation|3|Inactive|1009
+8b8a8d7c-5e4b-4a3d-a2b5-c4f5b3e1d3c5|Ravagers||11|Outer Space|4|Spacefaring Group|1|Active|1010
+7a7f7e6c-2e1d-4b3c-a5b2-c5e4f3d2a1b5|Wakandan Royal Family||12|Wakanda, Africa|2|Monarchy|1|Active|1011
+6b6a6d5e-3f2a-4b1d-a5c1-c4e3f2b5a3c5|Dora Milaje||13|Wakanda, Africa|3|Military Organization|1|Active|1011
+5a5e5d4b-1f3c-4a2d-a5b4-c3d2e4b1f3a5|The Hand||14|Global|3|Terrorist Organization|1|Active|1012
+4e4d4c3f-2a5b-4a1d-a2e3-b5c4f3e1d5a5|Nelson and Murdock Law Firm||15|New York, New York|1|Partnership|1|Active|1013
+3d3c3f2b-5e4a-4b1c-a3d5-c4b5e3a2f1d5|The Ten Rings||16|Global|3|Terrorist Organization|1|Active|1014
+2f2e2d1a-4c3b-4e5a-a1c5-b5d3f4a2e1b5|The Ancient One's Order|Masters of the Mystic Arts|17|Kamar-Taj, Nepal|5|Spiritual Order|1|Active|1015
+1c1b1f3d-2e5a-4b3e-a2d1-c4f3a5b2d4e5|The Eternals||18|Global|6|Celestial Beings|1|Active|1016
+9a9b9e8d-3c4f-4b5a-a1e3-b3d2c5f1a4e5|The Nova Corps||19|Xandar|4|Spacefaring Group|4|Defunct|1017
+8c8b8a7e-5d4a-4e3f-b2c1-c5b4a3f1d2e5|Parker Industries||20|New York, New York|1|Corporation|3|Inactive|1018
+7e7d7b6a-2f1e-4c3a-b5d2-c3e4f5a2b1d5|Daily Bugle||21|New York, New York|1|Corporation|1|Active|1019
+6d6c6b5f-3a2e-4e1c-b5a1-c4f3b2d5a3e5|The Sokovia Accords Committee||22|United Nations, Global|2|Government Agency|1|Active|1020
+5f5e5a4c-1d3b-4a2e-a5b4-c5d3f1e2b3a5|Pym Van Dyne Foundation||23|San Francisco, California|1|Non-Profit|1|Active|1021
+4c4f4e1d-5b3a-4e3c-a1d2-c3f2a5b4e1f5|Alchemax||24|New Jersey|1|Corporation|1|Active|1022
+3b3f3a2e-2c5d-4b4a-a1f5-c4e3d5b2a1c5|Rand Corporation||25|New York, New York|1|Corporation|3|Inactive|1023
+2a2e2f1b-4d3c-4a5b-a2c1-b5f4e3d2a5c5|Fisk Industries||26|New York, New York|1|Corporation|1|Active|1024
+1f1a1d3e-5c4b-4e2a-a5d1-c2b3f4a1e5d5|Midtown School of Science and Technology||27|Queens, New York|1|Educational Institution|1|Active|1025
+9d9e9b8c-3b4f-4a5e-b2c5-c4d3f1a2e5b5|Nova Prime||28|Xandar|4|Government Agency|4|Defunct|1017
+8e8d8a7f-5b4c-4f3d-a1e5-c3f5b2d4a3e5|Vibranium Mining Operations||29|Wakanda, Africa|1|Corporation|1|Active|1011
+7f7a7d6e-2f3b-4e1a-a5d5-c4e2b3a5c1f5|Mystic Archives of Kamar-Taj||30|Kamar-Taj, Nepal|5|Spiritual Order|1|Active|1015
+6c6b6f5a-3d2a-4e5b-a5c1-c5f3d4b1e2a5|SHIELD Academy||31|Washington, D.C.|1|Educational Institution|1|Active|1007
+5b5a5d4f-1e3c-4b2a-a1f5-c3b2e4a5d3f5|Centurion Squadron||32|Xandar|4|Military Organization|4|Defunct|1017
+4a4f4b1d-5c3a-4e3e-a2d5-b4d3f1b5e2a5|Intergalactic Council||33|Outer Space|4|Spacefaring Group|1|Active|1026
+3f3e3a2c-2d5b-4b1e-a5c3-c2e4f5b3d1a5|The Collector's Museum||34|Knowhere|1|Museum|1|Active|1027
+2e2d2f1a-4b3c-4a5f-a1d2-c5a3e4b5f3c5|The Guardians of the Galaxy||35|Outer Space|4|Spacefaring Group|1|Active|1010
+1c1f1e3d-5a4b-4d2a-a3f5-c4e3b5a1d2f5|The Sovereign||36|Sovereign Homeworld|4|Government Agency|1|Active|1028
+9b9a9e8d-3c4f-4a5b-a2d1-c3f5e4b2a3d5|Kree Empire||37|Hala|4|Government Agency|1|Active|1029
+8a8b8d7c-5e4a-4b3e-a1c5-c4e3b5d2a5f5|Thanos's Black Order||38|Outer Space|3|Terrorist Organization|4|Defunct|1030
+7d7c7f6a-2e1d-4c5b-a5e3-b3d4f1a2b5c5|Nova Corps Academy||39|Xandar|1|Educational Institution|4|Defunct|1017
+6f6e6b5c-3d2a-4b1e-a5c1-c2b3e5d4f3a5|Intergalactic Mining Company||40|Outer Space|1|Corporation|1|Active|1031
+5c5b5f4a-1e3f-4d2b-a1d5-c5a4e3b2f1c5|Celestial Observers||41|Outer Space|4|Spacefaring Group|1|Active|1032
+4e4d4f3b-2a5c-4a1d-a2f3-b4d5e3c1b2a5|Spartoi Empire||42|Spartax|4|Government Agency|1|Active|1033
+3a3f3d2b-5e4c-4b1e-a3d5-c3e2b5a1f4e5|Xandar Defence Command||43|Xandar|4|Military Organization|4|Defunct|1017
+2d2c2a1e-4b3f-4e5b-a1d2-c5f4e3b2c1d5|The Inhumans||44|Attilan|6|Celestial Beings|1|Active|1034
+1b1e1f3c-5a4b-4d2a-a3e5-c4b3d5f1a2b5|The Ravagers Council||45|Outer Space|4|Spacefaring Group|1|Active|1010
