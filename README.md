@@ -4,12 +4,12 @@ Fictional dataset of Stark companies for database and programming projects.
 
 General info:
 - [Accounts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/accounts)
-- Products
-- Persons
+- [Products](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/products)
+- [Persons](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/persons)
 - Orders
 - Order Details
+- [Organizations](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/organizations)
 - Sales
-- Employees
+- [Employees](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/employee)
 - Shippers
-- Locations (including addresses)
-- 
+- Locations
