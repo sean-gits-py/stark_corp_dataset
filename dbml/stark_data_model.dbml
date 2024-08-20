@@ -1,0 +1,273 @@
+Table organization {
+  organization_id int [pk, increment]
+  name varchar
+  type varchar
+  industry varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table person {
+  person_id int [pk, increment]
+  first_name varchar
+  middle_name varchar
+  last_name varchar
+  suffix varchar
+  preferred_name varchar
+  date_of_birth date
+  gender varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table contact {
+  contact_id int [pk, increment]
+  person_id int [ref: > person.person_id]
+  email varchar
+  mobile_phone varchar
+  work_phone varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table account {
+  account_id int [pk, increment]
+  organization_id int [ref: > organization.organization_id]
+  account_type varchar
+  primary_contact_id int [ref: > contact.contact_id]
+  channel_id int [ref: > channel.channel_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table location {
+  location_id int [pk, increment]
+  account_id int [ref: > account.account_id]
+  contact_id int [ref: - contact.contact_id]
+  region_id int [ref: > region.region_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table address {
+  address_id int [pk, increment]
+  location_id int [ref: > location.location_id]
+  street varchar
+  city varchar
+  state_id int [ref: > state.state_id]
+  postal_code_id int [ref: > postal_code.postal_code_id]
+  country varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table categories {
+  category_id int [pk, increment]
+  name varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table subcategories {
+  subcategory_id int [pk, increment]
+  category_id int [ref: > categories.category_id]
+  name varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table manufacturers {
+  manufacturer_id int [pk, increment]
+  organization_id int [ref: > organization.organization_id]
+  brand_id int [ref: > brand.brand_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table brand {
+  brand_id int [pk, increment]
+  name varchar
+  organization_id int [ref: > organization.organization_id]
+  manufacturer_id int [ref: > manufacturers.manufacturer_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table product {
+  product_id int [pk, increment]
+  brand_id int [ref: > brand.brand_id]
+  name varchar
+  description text
+  category_id int [ref: > categories.category_id]
+  product_type_id int [ref: > product_type.product_type_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table sku {
+  sku_id int [pk, increment]
+  product_id int [ref: > product.product_id]
+  sku_code varchar
+  price decimal
+  availability_status varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table corp_division {
+  division_id int [pk, increment]
+  organization_id int [ref: > organization.organization_id]
+  name varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table corp_dept {
+  dept_id int [pk, increment]
+  division_id int [ref: > corp_division.division_id]
+  name varchar
+  manager_id int [ref: > corp_employee.employee_id]
+  updated_at datetime
+}
+
+Table corp_employee {
+  employee_id int [pk, increment]
+  person_id int [ref: > person.person_id]
+  contact_id int [ref: > contact.contact_id]
+  dept_id int [ref: > corp_dept.dept_id]
+  position varchar
+  hire_date date
+  created_at datetime
+  updated_at datetime
+}
+
+Table channel {
+  channel_id int [pk, increment]
+  name varchar
+  description text
+  created_at datetime
+  updated_at datetime
+}
+
+Table date {
+  date_id int [pk, increment]
+  date date
+  year int
+  month int
+  day_of_week varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table corp_purchasing {
+  purchase_order_id int [pk, increment]
+  supplier_id int [ref: > organization.organization_id]
+  product_id int [ref: > product.product_id]
+  quantity int
+  order_date date [ref: > date.date]
+  delivery_date date [ref: > date.date]
+  created_at datetime
+  updated_at datetime
+}
+
+Table txn_ledger {
+  transaction_id int [pk, increment]
+  customer_id int [ref: > account.account_id]
+  sku_id int [ref: > sku.sku_id]
+  quantity int
+  transaction_date date [ref: > date.date]
+  amount decimal
+  created_at datetime
+  updated_at datetime
+}
+
+Table settlement_ledger {
+  settlement_id int [pk, increment]
+  transaction_id int [ref: > txn_ledger.transaction_id]
+  settlement_date date [ref: > date.date]
+  amount decimal
+  status varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table cust_serv_events {
+  event_id int [pk, increment]
+  customer_id int [ref: > account.account_id]
+  date_id int [ref: > date.date_id]
+  description text
+  resolution_status varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table fact_order {
+  order_id int [pk, increment]
+  customer_id int [ref: > account.account_id]
+  order_date date [ref: > date.date]
+  total_amount decimal
+  status varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table invoice {
+  invoice_id int [pk, increment]
+  order_id int [ref: > fact_order.order_id]
+  transaction_id int [ref: > txn_ledger.transaction_id]
+  invoice_date date [ref: > date.date]
+  amount decimal
+  created_at datetime
+  updated_at datetime
+}
+
+Table product_line {
+  product_line_id int [pk, increment]
+  product_id int [ref: > product.product_id]
+  sku_id int [ref: > sku.sku_id]
+  line_name varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table region {
+  region_id int [pk, increment]
+  name varchar
+  created_at datetime
+  updated_at datetime
+}
+
+Table state {
+  state_id int [pk, increment]
+  name varchar
+  abbreviation varchar
+  region_id int [ref: > region.region_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table postal_code {
+  postal_code_id int [pk, increment]
+  code varchar
+  state_id int [ref: > state.state_id]
+  created_at datetime
+  updated_at datetime
+}
+
+Table inventory {
+  inventory_id int [pk, increment]
+  sku_id int [ref: > sku.sku_id]
+  location_id int [ref: > location.location_id]
+  quantity_on_hand int
+  reorder_level int
+  created_at datetime
+  updated_at datetime
+}
+
+Table product_type {
+  product_type_id int [pk, increment]
+  name varchar
+  description text
+  created_at datetime
+  updated_at datetime
+}
