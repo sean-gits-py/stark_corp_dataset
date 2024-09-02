@@ -1,10 +1,10 @@
 account_id|account_name|organization_id|account_type|account_status|primary_contact_id|channel_id|created_at|updated_at
-1001|Stark Industries Aeronautics|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2010-05-02|2024-01-12
-1002|Stark Industries Aerospace|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2011-06-10|2024-01-12
-1003|Stark Industries Materials Sciences|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Research|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2012-09-15|2024-01-12
-1004|Stark Industries Military|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2013-02-22|2024-01-12
-1005|Stark Industries Manufacturing|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2014-05-30|2024-01-12
-1006|Stark Industries Robotics|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2015-08-18|2024-01-12
+1001|Stark Aeronautics|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2010-05-02|2024-01-12
+1002|Stark Aerospace|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2011-06-10|2024-01-12
+1003|Stark Labs|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Research|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2012-09-15|2024-01-12
+1004|Stark Military Sciences|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2013-02-22|2024-01-12
+1005|Stark Manufacturing|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2014-05-30|2024-01-12
+1006|Stark Robotics|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2015-08-18|2024-01-12
 1007|Hammer Industries Corporate|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Corporate|Inactive|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|2|2011-03-18|2014-04-15
 1008|Hammer Industries Vendor|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Vendor|Banned|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|2|2010-07-22|2012-11-11
 1009|Hammer Industries Military|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Corporate|Inactive|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|2|2009-09-29|2011-12-21
