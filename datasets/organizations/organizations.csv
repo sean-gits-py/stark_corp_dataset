@@ -1,6 +1,5 @@
 org_uuid,org_name_full,org_name_short,org_type_id,org_type_desc,org_status_id,org_status_desc,corp_acct_uuid,parent_org_uuid,parent_org_name
 bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries","",6,"Business",1,Active,d5e6a8f2-2b4f-411c-8a3b-6f2c3e4d7a6c,,
-e34b1d4f-5fa3-4f7e-9c9b-5e8a6d8b7a6c,"Stark Resilient","",6,"Business",1,Active,f3b2a7e4-4b5d-4e7a-91c3-8c2d5e4f7a8d,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
 2c9e12fa-8c71-4d81-9326-2a5d3b5b3c88,"Stark Aeronautics","",6,"Business",1,Active,c9f3d5e7-8b3d-4a2e-93b7-2d5f4e8b6a7c,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
 9f3f98cd-6c4d-4f21-874f-13db6a7e4e96,"Stark Aerospace","",6,"Business",1,Active,a8d3c5e7-5f6b-4e2a-9c3f-3b2d7e5a8c6f,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
 dc1c8cda-23c4-48f4-8b41-7e7c6aeb7e96,"Stark Laboratories","",6,"Business",1,Active,b6e4a7c8-2d5f-4f8e-9a2b-5f3e7d9c2a5b,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
@@ -32,3 +31,4 @@ f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense","DOD",1,"Government
 8f7d6a5c-9b3e-4f2a-a6f7-5c8e7d4a3b6c,"United States Space Force","Space Force",2,"Military",1,Active,d9e6f4b3-7a5c-4f8d-9c7a-2f5e4b3a8c7d,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
 9e8d7c5a-4b2a-4f7d-a9c6-3b2e5d6c7a8f,"Defense Intelligence Agency","DIA",1,"Government",1,Active,c4d3f7e5-2b9d-4f8e-9a7c-3f5b6e4d2a8c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
 7d6f5c4b-2a4e-4d8a-b6e3-5c8b7e9f6a4d,"National Security Agency","NSA",1,"Government",1,Active,e5b7d4f3-3c6d-4f9a-9e7c-2f4d6a5b9e3c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
+0f7a6b5e-3d2c-4f8d-9c7a-2e5f3b4a9d7c,"Cybertek","",6,"Business",1,Active,a4d7e5f3-2b6c-4f9a-8c7e-5f3d2e6b7c4a,,
