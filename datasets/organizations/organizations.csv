@@ -1,34 +1,36 @@
-org_uuid,org_name_full,org_name_short,org_type_id,org_type_desc,org_status_id,org_status_desc,corp_acct_uuid,parent_org_uuid,parent_org_name
-bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries","",6,"Business",1,Active,d5e6a8f2-2b4f-411c-8a3b-6f2c3e4d7a6c,,
-2c9e12fa-8c71-4d81-9326-2a5d3b5b3c88,"Stark Aeronautics","",6,"Business",1,Active,c9f3d5e7-8b3d-4a2e-93b7-2d5f4e8b6a7c,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-9f3f98cd-6c4d-4f21-874f-13db6a7e4e96,"Stark Aerospace","",6,"Business",1,Active,a8d3c5e7-5f6b-4e2a-9c3f-3b2d7e5a8c6f,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-dc1c8cda-23c4-48f4-8b41-7e7c6aeb7e96,"Stark Laboratories","",6,"Business",1,Active,b6e4a7c8-2d5f-4f8e-9a2b-5f3e7d9c2a5b,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-8ac9b875-b42f-4e2e-bc31-5a4b44e3c4a7,"Stark Military Sciences","",6,"Business",1,Active,f5d3e7b4-2f8c-4a7e-9b3f-7d6c8a9b3c4e,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-2f3c4a7e-5e7f-4d3c-bb25-27f3b6b8d7c5,"Stark Manufacturing","",6,"Business",1,Active,d4f7b3e2-5a8c-4b6f-8c9e-3f7d4e6a9b2c,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-f5d7c7b2-2e3b-4f98-81b7-4b5d4e6c8f5d,"Stark Robotics","",6,"Business",1,Active,e3f8a7d6-5c4e-4b2f-9e8b-6d2f4c7a9b5d,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-3a5c6d7e-1f2a-45f7-b6a1-8e3d2b7c5a8f,"Stark Pictures","",6,"Business",1,Active,b7e8f6c3-2d5a-4f7c-9b8e-4c7f2a3b9d5e,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-7b3d4e8c-2c4e-457f-a5d1-6f4a8b7d9c6a,"Stark Innovations","",6,"Business",1,Active,d8f6a5c2-4b3e-4e7a-9c2f-6a8b3f4e7c5a,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-1e6d8c5f-2a4b-4567-9c4f-4b2c7e3c5a7d,"Stark Energy","",6,"Business",1,Active,f7e6d5b4-3a2c-4f8b-9e2d-8c7f4b3a9e6d,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-9e5f2d8a-4c6b-4f7c-9a2f-2d3b4c7e8f6c,"Stark Material Sciences","",6,"Business",1,Active,c4f8e7d3-5b2a-4a7c-9b6e-3f2d7e9a8c5b,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-6d8e5c4a-4f5e-4987-a2d3-9c7b6e5a2d7c,"Stark International","",6,"Business",1,Active,e8f7d6a5-2b4c-4e7d-9c3b-5f4a7e2b9d6f,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-8f9b7a4e-5d6f-47e1-a2b8-6f4e7d8b9c5a,"Stark Enterprises","",6,"Business",1,Active,a7d5e3c4-8b2f-4e6d-9a3c-7e8f4b5a9d2c,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-2a3e5d7b-4f6a-4d8e-a1c5-8b2e9f6d3c5b,"Stark Solutions","",6,"Business",1,Active,b6f4e3d5-7c2a-4f8d-9b7e-2f5a3e4b9c7d,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-3d8f6c7e-4c5a-4b3d-8f9c-6a7e5b2d4f8c,"Stark Logistics","",6,"Business",1,Active,c9e7d5a3-2f4c-4f8b-9a7e-4c6f2a8d9b3e,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-5e4d6c2a-2f7b-4f8a-a1d2-8b7c9f5d3e6b,"Stark Relief Foundation","",3,"Nonprofit",1,Active,e7d4f6a3-5b2c-4f7a-9e8b-6a3d2f4b7e9c,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-7d4c3e9b-5a6d-4f7a-b2c8-9f8b7e6d4c3a,"Maria Stark Foundation","",3,"Nonprofit",1,Active,a6e3d4f5-2b4a-4f8c-9e7b-4f3d7e6a9c8b,,
-0a3b6e7f-8b7d-4f1a-a4f2-7d8b3c5e7f4a,"Hammer Industries","",6,"Business",2,Acquired,f4e3a7d5-2b4c-4f9e-8c6b-3f7d2e5a8b9c,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-7d5e6c2a-2f7b-4f9c-8b3a-5c8d7e3c6b7d,"Pym Technologies","",6,"Business",1,Active,e9f7d4c6-3b5a-4e8d-9a2f-5f3d7e4b8c6a,bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries"
-7c9d2e8b-1f2c-4d3f-a8b5-2e3d4c7e8f9a,"Roxxon Corporation","",6,"Business",1,Active,a3d7e4b5-2f8a-4e9c-9b7e-6f5a4d3b8e6c,,
-6b8e5f4d-2c7a-4f9d-8a3e-5c8b2d7e9f6a,"United States Department of Damage Control","DODC",1,"Government",1,Active,e4d7f6a3-5b2c-4f8e-9c3a-7f5d4e6b9a7c,,
-4e5c7a8d-1b3f-4d6a-8c5e-4f3a8d7e9b2c,"Strategic Homeland Intervention, Enforcement, and Logistics Division","S.H.I.E.L.D.",1,"Government",1,Active,f9a3b4e7-2f6c-4d8b-9a5e-3f7d4e6b8c2a,,
-5f8d4c7b-7a3e-4d8f-b5a4-8c6d2e3c7b9e,"Advanced Idea Mechanics","AIM",6,"Business",3,Inactive,b3a5e7d4-8f2c-4e9b-9d6a-2f7d3e5c4a8b,,
-f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense","DOD",1,"Government",1,Active,c2d5e8f4-7a3c-4e9d-8b6f-5f4a3e7b6d9c,,
-2c5f6d7e-8b4a-4f7d-8c3a-9f2b5d4c6a7d,"Joint Chiefs of Staff","JCS",1,"Government",1,Active,e7a5d4c6-2b8c-4f9d-9e3a-6f4d7e3c5a8b,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-3e4d5a7b-6c2a-4d9e-a3f4-6b7c9e5f2a4d,"United States Army","Army",2,"Military",1,Active,a8f4e7c3-2b5d-4f9e-9a6c-3f7e5b4d2a9c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-4f5c6a8d-7b3e-4d8f-9c2b-3a7d9b4e6f8d,"United States Navy","Navy",2,"Military",1,Active,d7f4e8b2-5a6c-4f9d-8c3a-7b5d4e6f2a8c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-6a5d4e7c-3f2b-4d8a-b2f5-9c7b6e4d3c8e,"United States Air Force","Air Force",2,"Military",1,Active,c6f3e7a4-2b9d-4f8e-9c5a-6f7e4d3b2a8c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-7e4c5a6d-8b2a-4f3d-a7c9-8f4b7c5d3e2a,"United States Marine Corps","Marines",2,"Military",1,Active,a4d5f8e7-3b2c-4f9d-8c6a-7f5b3e4d9a8c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-8f7d6a5c-9b3e-4f2a-a6f7-5c8e7d4a3b6c,"United States Space Force","Space Force",2,"Military",1,Active,d9e6f4b3-7a5c-4f8d-9c7a-2f5e4b3a8c7d,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-9e8d7c5a-4b2a-4f7d-a9c6-3b2e5d6c7a8f,"Defense Intelligence Agency","DIA",1,"Government",1,Active,c4d3f7e5-2b9d-4f8e-9a7c-3f5b6e4d2a8c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-7d6f5c4b-2a4e-4d8a-b6e3-5c8b7e9f6a4d,"National Security Agency","NSA",1,"Government",1,Active,e5b7d4f3-3c6d-4f9a-9e7c-2f4d6a5b9e3c,f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense"
-0f7a6b5e-3d2c-4f8d-9c7a-2e5f3b4a9d7c,"Cybertek","",6,"Business",1,Active,a4d7e5f3-2b6c-4f9a-8c7e-5f3d2e6b7c4a,,
+org_uuid,org_name_full,org_name_short,org_acronym,org_type_id,org_type_desc,org_status_id,org_status_desc,parent_org_uuid,parent_org_name,nation_affiliation
+bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries","Stark Ind","SI",6,"Business",1,"Active",,"",1
+9f3f98cd-6c4d-4f21-874f-13db6a7e4e96,"Stark Aerospace","Stark Aerospace","SISP",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+e8f7d6a5-2b4c-4e7d-9c3b-5f4a7e2b9d6f,"Stark Aviation","Stark Aviation","SIAIR",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+dc1c8cda-23c4-48f4-8b41-7e7c6aeb7e96,"Stark Laboratories","Stark Labs","SI Labs",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+8ac9b875-b42f-4e2e-bc31-5a4b44e3c4a7,"Stark Mission Solutions","SI Mission Solutions","SIMS",6,"Business",1,"Active",6d8e5c4a-4f5e-4987-a2d3-9c7b6e5a2d7c,"Stark International",1
+2f3c4a7e-5e7f-4d3c-bb25-27f3b6b8d7c5,"Stark Manufacturing","SI Manufacturing","SIM",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+f5d7c7b2-2e3b-4f98-81b7-4b5d4e6c8f5d,"Stark Robotics","SI Robotics","SIR",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+3a5c6d7e-1f2a-45f7-b6a1-8e3d2b7c5a8f,"Stark Pictures","Stark Pictures","SP",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+7b3d4e8c-2c4e-457f-a5d1-6f4a8b7d9c6a,"Stark Innovations","SI Innovations","SII",6,"Research Institution",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+1e6d8c5f-2a4b-4567-9c4f-4b2c7e3c5a7d,"Stark Energy","SI Energy","SIE",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+9e5f2d8a-4c6b-4f7c-9a2f-2d3b4c7e8f6c,"Stark Material Sciences","SI Material Sciences","SMS",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+6d8e5c4a-4f5e-4987-a2d3-9c7b6e5a2d7c,"Stark International","Stark Intl","SINT",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+8f9b7a4e-5d6f-47e1-a2b8-6f4e7d8b9c5a,"Stark Enterprises","Stark Enterprises","SE",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+2a3e5d7b-4f6a-4d8e-a1c5-8b2e9f6d3c5b,"Stark Solutions","SI Solutions","SIS",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+3d8f6c7e-4c5a-4b3d-8f9c-6a7e5b2d4f8c,"Stark Logistics","SI Logistics","SIL",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+5e4d6c2a-2f7b-4f8a-a1d2-8b7c9f5d3e6b,"Stark Relief Foundation","Stark Relief Foundation","SRF",3,"Nonprofit",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+7d4c3e9b-5a6d-4f7a-b2c8-9f8b7e6d4c3a,"Maria Stark Foundation","M. Stark Foundation","MSF",3,"Nonprofit",1,"Active",,"",1
+0a3b6e7f-8b7d-4f1a-a4f2-7d8b3c5e7f4a,"Hammer Industries","Hammer Ind","HI",6,"Business",66,"Deactivated",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+7d5e6c2a-2f7b-4f9c-8b3a-5c8d7e3c6b7d,"Pym Technologies","Pym Tech","PT",6,"Business",66,"Deactivated",f7e6d5b4-3a2c-4f8b-9e2d-8c7f4b3a9e6d,"Pym van Dyne Foundation",1
+f7e6d5b4-3a2c-4f8b-9e2d-8c7f4b3a9e6d,"Pym van Dyne Foundation","PvD Foundation","PvDF",3,"Nonprofit",1,"Active",,"",1
+7c9d2e8b-1f2c-4d3f-a8b5-2e3d4c7e8f9a,"Roxxon Corporation","Roxxon Corp","RC",6,"Business",1,"Active",,"",1
+6b8e5f4d-2c7a-4f9d-8a3e-5c8b2d7e9f6a,"United States Department of Damage Control","DODC","DODC",1,"Government",1,"Active",,"",1
+4e5c7a8d-1b3f-4d6a-8c5e-4f3a8d7e9b2c,"Strategic Homeland Intervention, Enforcement, and Logistics Division","S.H.I.E.L.D.","S.H.I.E.L.D.",1,"Government",1,"Active",,"",1
+5f8d4c7b-7a3e-4d8f-b5a4-8c6d2e3c7b9e,"Advanced Idea Mechanics","AIM","AIM",6,"Business",2,"Inactive",,"",1
+f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"United States Department of Defense","US DOD","DOD",1,"Government",1,"Active",,"",1
+2c5f6d7e-8b4a-4f7d-8c3a-9f2b5d4c6a7d,"United States Joint Chiefs of Staff","US JCS","JCS",1,"Government",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+3e4d5a7b-6c2a-4d9e-a3f4-6b7c9e5f2a4d,"United States Army","US Army","US Army",2,"Military",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+4f5c6a8d-7b3e-4d8f-9c2b-3a7d9b4e6f8d,"United States Navy","US Navy","USN",2,"Military",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+6a5d4e7c-3f2b-4d8a-b2f5-9c7b6e4d3c8e,"United States Air Force","US Air Force","USAF",2,"Military",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+7e4c5a6d-8b2a-4f3d-a7c9-8f4b7c5d3e2a,"United States Marine Corps","US Marine Corp","USMC",2,"Military",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+8f7d6a5c-9b3e-4f2a-a6f7-5c8e7d4a3b6c,"United States Space Force","US Space Force","USSF",2,"Military",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+9e8d7c5a-4b2a-4f7d-a9c6-3b2e5d6c7a8f,"United States Defense Intelligence Agency","DIA","DIA",1,"Government",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+7d6f5c4b-2a4e-4d8a-b6e3-5c8b7e9f6a4d,"United States National Security Agency","NSA","NSA",1,"Government",1,"Active",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,"Department of Defense",1
+0f7a6b5e-3d2c-4f8d-9c7a-2e5f3b4a9d7c,"Cybertek Incorporated","Cybertek Inc","CINC",6,"Business",2,"Inactive",,"",1
+d5e6a8f2-2b4f-411c-8a3b-6f2c3e4d7a6c,"Massachusetts Institute of Technology","MIT","MIT",4,"Educational Institution",1,"Active",,"",1
