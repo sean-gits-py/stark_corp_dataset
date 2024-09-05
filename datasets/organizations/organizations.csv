@@ -14,8 +14,8 @@ f5d7c7b2-2e3b-4f98-81b7-4b5d4e6c8f5d,"Stark Robotics","SI Robotics","SIR",6,"Bus
 8f9b7a4e-5d6f-47e1-a2b8-6f4e7d8b9c5a,"Stark Enterprises","Stark Enterprises","SE",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
 2a3e5d7b-4f6a-4d8e-a1c5-8b2e9f6d3c5b,"Stark Solutions","SI Solutions","SIS",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
 3d8f6c7e-4c5a-4b3d-8f9c-6a7e5b2d4f8c,"Stark Logistics","SI Logistics","SIL",6,"Business",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
-5e4d6c2a-2f7b-4f8a-a1d2-8b7c9f5d3e6b,"Stark Relief Foundation","Stark Relief Foundation","SRF",3,"Nonprofit",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
-7d4c3e9b-5a6d-4f7a-b2c8-9f8b7e6d4c3a,"Maria Stark Foundation","M. Stark Foundation","MSF",3,"Nonprofit",1,"Active",,"",1
+5e4d6c2a-2f7b-4f8a-a1d2-8b7c9f5d3e6b,"Stark Relief Foundation","Stark Relief Fdtn","SRPC",3,"Nonprofit",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
+7d4c3e9b-5a6d-4f7a-b2c8-9f8b7e6d4c3a,"Maria Stark Foundation","M. Stark Fdtn","MSF",3,"Nonprofit",1,"Active",,"",1
 0a3b6e7f-8b7d-4f1a-a4f2-7d8b3c5e7f4a,"Hammer Industries","Hammer Ind","HI",6,"Business",66,"Deactivated",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
 7d5e6c2a-2f7b-4f9c-8b3a-5c8d7e3c6b7d,"Pym Technologies","Pym Tech","PT",6,"Business",66,"Deactivated",f7e6d5b4-3a2c-4f8b-9e2d-8c7f4b3a9e6d,"Pym van Dyne Foundation",1
 f7e6d5b4-3a2c-4f8b-9e2d-8c7f4b3a9e6d,"Pym van Dyne Foundation","PvD Foundation","PvDF",3,"Nonprofit",1,"Active",,"",1
@@ -37,3 +37,4 @@ d5e6a8f2-2b4f-411c-8a3b-6f2c3e4d7a6c,"Massachusetts Institute of Technology","MI
 ,"S.H.I.E.L.D. Academy","","",4,"Educational Institution",1,"Active",,"",1
 ,"AccuTech Research & Development","AccuTech","ACC",6,"Research Institution",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
 ,"Cordco","Cordco","CCO",6,"Research Institution",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",3
+,"September Foundation","Sept Fdtn","SPC",3,"Nonprofit",1,"Active",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",1
