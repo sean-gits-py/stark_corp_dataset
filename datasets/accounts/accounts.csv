@@ -1,28 +1,63 @@
-account_id|account_name|organization_id|account_type|account_status|primary_contact_id|channel_id|created_at|updated_at
-1001|Stark Aeronautics|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2010-05-02|2024-01-12
-1002|Stark Aerospace|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2011-06-10|2024-01-12
-1003|Stark Labs|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Research|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2012-09-15|2024-01-12
-1004|Stark Military Sciences|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2013-02-22|2024-01-12
-1005|Stark Manufacturing|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2014-05-30|2024-01-12
-1006|Stark Robotics|9f8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Corporate|Active|e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|1|2015-08-18|2024-01-12
-1007|Hammer Industries Corporate|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Corporate|Inactive|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|2|2011-03-18|2014-04-15
-1008|Hammer Industries Vendor|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Vendor|Banned|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|2|2010-07-22|2012-11-11
-1009|Hammer Industries Military|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|Corporate|Inactive|7f7e7d6b-2e3d-4a1b-a5c2-b3e5f4a2d1c5|2|2009-09-29|2011-12-21
-1010|Pym Technologies Corporate|6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|Corporate|Active|6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|3|2015-07-10|2024-01-12
-1011|Pym Technologies Research|6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|Corporate|Active|6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|3|2016-01-21|2024-01-12
-1012|Pym Technologies Manufacturing|6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|Corporate|Active|6f6d6c5a-3e2a-4b4e-a5b1-c2e4f3d2a5c5|3|2017-03-05|2024-01-12
-1013|Oscorp Industries Corporate|5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|Corporate|Inactive|5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|4|2012-11-22|2024-01-12
-1014|Oscorp Industries Research|5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|Corporate|Inactive|5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|4|2013-05-10|2024-01-12
-1015|Oscorp Industries Manufacturing|5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|Corporate|Inactive|5e5d5c4a-2f1d-4a3b-a2c5-c4e3b2f1d5a5|4|2014-07-15|2024-01-12
-1016|Roxxon Corporation Corporate|4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|Corporate|Active|4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|5|2008-06-15|2024-01-12
-1017|Roxxon Corporation Energy|4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|Corporate|Active|4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|5|2009-11-11|2024-01-12
-1018|Roxxon Corporation Chemicals|4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|Corporate|Active|4d4c4b3a-1e5f-4b3e-a1c5-b5d2a4e3c1f5|5|2010-03-22|2024-01-12
-1019|Damage Control Corporate Account|3c3b3a2f-5a4b-4e3d-a2b1-c5e4f3d2b3a5|Corporate|Active|3c3b3a2f-5a4b-4e3d-a2b1-c5e4f3d2b3a5|6|2016-01-05|2024-01-12
-1020|S.H.I.E.L.D. Government Account|2b2a2d1e-4f3c-4b5a-a2c3-c4b5f3a2e1d5|Government|Active|2b2a2d1e-4f3c-4b5a-a2c3-c4b5f3a2e1d5|7|1995-11-01|2024-01-12
-1021|AIM Corporate Account|9c9b9a8e-3d2f-4b4a-a1c5-c3d2e5b1f4a5|Corporate|Inactive|9c9b9a8e-3d2f-4b4a-a1c5-c3d2e5b1f4a5|9|2013-12-05|2024-01-12
-1023|Ravagers Spacefaring Group Account|8b8a8d7c-5e4b-4a3d-a2b5-c4f5b3e1d3c5|Spacefaring Group|Active|8b8a8d7c-5e4b-4a3d-a2b5-c4f5b3e1d3c5|10|2014-07-30|2024-01-12
-1024|Wakandan Royal Family Monarchy Account|7a7f7e6c-2e1d-4b3c-a5b2-c5e4f3d2a1b5|Monarchy|Active|7a7f7e6c-2e1d-4b3c-a5b2-c5e4f3d2a1b5|11|2016-02-18|2024-01-12
-1025|Wakandan Royal Family Research Account|5a5e5d4b-1f3c-4a2d-a5b4-c3d2e4b1f3a5|Research Organization|Active|5a5e5d4b-1f3c-4a2d-a5b4-c3d2e4b1f3a5|12|2012-08-12|2024-01-12
-1026|Nelson and Murdock Law Firm Account|4e4d4c3f-2a5b-4a1d-a2e3-b5c4f3e1d5a5|Law Firm|Active|4e4d4c3f-2a5b-4a1d-a2e3-b5c4f3e1d5a5|13|2013-04-20|2024-01-12
-1027|The Nova Corps Account|9a9b9e8d-3c4f-4b5a-a1e3-b3d2c5f1a4e5|Government|Defunct|9a9b9e8d-3c4f-4b5a-a1e3-b3d2c5f1a4e5|17|2014-08-01|2024-01-12
-1028|Parker Industries Account|8c8b8a7e-5d4a-4e3f-b2c1-c5b4a3f1d2e5|Corporate|Inactive|8c8b8a7e-5d4a-4e3f-b2c1-c5b4a3f1d2e5|18|2016-07-07|2024-01-12
+acct_uuid,account,org_uuid,acct_type_id,acct_type_name,acct_status_id,acct_status_desc,primary_contact_id,updated_by,updated_ts,created_by,created_ts
+d1e7f2a8-4c5a-4b6e-a1c3-8f6d7b2a9c5e,"Stark Ind Corp",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,1,"Primary",1,"Active",,"",,"",
+f7a4d5e3-5c6f-4d8a-9c2b-6f4b7a2d5c7e,"Stark Ind Corp Finance",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,2,Billing,1,"Active",,"",,"",
+b2c5f7e6-5a8c-4f9b-a6d4-9e7b3f5d2a4f,"Stark Aerospace Corp",9f3f98cd-6c4d-4f21-874f-13db6a7e4e96,1,Primary,1,"Active",,"",,"",
+b9f8e6d7-8a5c-4f7d-9b3e-7d5c3e7a9f6b,"Stark Aerospace Finance",9f3f98cd-6c4d-4f21-874f-13db6a7e4e96,2,Billing,1,"Active",,"",,"",
+c4f8e7d3-5b2a-4a7c-9b6e-3f2d7e9a8c5b,"Stark Aviation Corp",e8f7d6a5-2b4c-4e7d-9c3b-5f4a7e2b9d6f,1,Primary,1,"Active",,"",,"",
+a7d5e3c4-8b2f-4e6d-9a3c-7e8f4b5a9d2c,"Stark Aviation Finance",e8f7d6a5-2b4c-4e7d-9c3b-5f4a7e2b9d6f,2,Billing,1,"Active",,"",,"",
+f3e6d4b8-7c4a-4f7e-9d3b-5f2c4b7e6a9d,"Stark Labs Corp",dc1c8cda-23c4-48f4-8b41-7e7c6aeb7e96,1,Primary,1,"Active",,"",,"",
+c7d9a8f6-2b4e-4f7d-9c5a-8b3d7f4e2c5b,"Stark Labs Finance",dc1c8cda-23c4-48f4-8b41-7e7c6aeb7e96,2,Billing,1,"Active",,"",,"",
+c4d9f7b3-2f5a-4e8d-a6b2-8e4d6c5b9d3f,"SI Mission Solutions Corp",8ac9b875-b42f-4e2e-bc31-5a4b44e3c4a7,1,Primary,1,"Active",,"",,"",
+d4e8f6b7-9a4e-4f8c-a5c2-9b7c5f8e3a2f,"SI Mission Solutions Finance",8ac9b875-b42f-4e2e-bc31-5a4b44e3c4a7,2,Billing,1,"Active",,"",,"",
+f7e3d9b4-5b4c-4f9a-a7c6-7c6f2a8d4f7d,"SI Manufacturing Corp",2f3c4a7e-5e7f-4d3c-bb25-27f3b6b8d7c5,1,Primary,1,"Active",,"",,"",
+b6f4e3d5-7c2a-4f8d-9b7e-2f5a3e4b9c7d,"SI Manufacturing Finance",2f3c4a7e-5e7f-4d3c-bb25-27f3b6b8d7c5,2,Billing,1,"Active",,"",,"",
+d4a5f8e6-6f7a-4d9c-8b5a-9c2f4d7b5e6a,"SI Robotics Corp",f5d7c7b2-2e3b-4f98-81b7-4b5d4e6c8f5d,1,Primary,1,"Active",,"",,"",
+c9e7d5a3-2f4c-4f8b-9a7e-4c6f2a8d9b3e,"SI Robotics Finance",f5d7c7b2-2e3b-4f98-81b7-4b5d4e6c8f5d,2,Billing,1,"Active",,"",,"",
+a7c5e8d6-5c7f-4e9b-a2f7-7d5b4e9c7a2d,"Stark Pictures Corp",3a5c6d7e-1f2a-45f7-b6a1-8e3d2b7c5a8f,1,Primary,1,"Active",,"",,"",
+e7d4f6a3-5b2c-4f7a-9e8b-6a3d2f4b7e9c,"Stark Pictures Finance",3a5c6d7e-1f2a-45f7-b6a1-8e3d2b7c5a8f,2,Billing,1,"Active",,"",,"",
+f4e3d7a9-6c5f-4f7e-9b2f-8e5b3d9a7e2d,"SI Innovations Corp",7b3d4e8c-2c4e-457f-a5d1-6f4a8b7d9c6a,1,Primary,1,"Active",,"",,"",
+a6e3d4f5-2b4a-4f8c-9e7b-4f3d7e6a9c8b,"SI Innovations Finance",7b3d4e8c-2c4e-457f-a5d1-6f4a8b7d9c6a,2,Billing,1,"Active",,"",,"",
+b5e6f7d9-4a3c-4f7b-a9c2-6f2d8c5b3e7f,"SI Energy Corp",1e6d8c5f-2a4b-4567-9c4f-4b2c7e3c5a7d,1,Primary,1,"Active",,"",,"",
+f4e3a7d5-2b4c-4f9e-8c6b-3f7d2e5a8b9c,"SI Energy Finance",1e6d8c5f-2a4b-4567-9c4f-4b2c7e3c5a7d,2,Billing,1,"Active",,"",,"",
+c2f6a5d8-7e4f-4f8e-9b2d-7c3a9d5f6b7a,"SI Material Sci Corp",9e5f2d8a-4c6b-4f7c-9a2f-2d3b4c7e8f6c,1,Primary,1,"Active",,"",,"",
+e9f7d4c6-3b5a-4e8d-9a2f-5f3d7e4b8c6a,"SI Material Sci Finance",9e5f2d8a-4c6b-4f7c-9a2f-2d3b4c7e8f6c,2,Billing,1,"Active",,"",,"",
+d7e4c6b3-4f8d-4e7a-a6d5-8b7c3d9f4a5e,"Stark Intl Corp",6d8e5c4a-4f5e-4987-a2d3-9c7b6e5a2d7c,1,Primary,1,"Active",,"",,"",
+a3d7e4b5-2f8a-4e9c-9b7e-6f5a4d3b8e6c,"Stark Intl Corp Finance",6d8e5c4a-4f5e-4987-a2d3-9c7b6e5a2d7c,2,Billing,1,"Active",,"",,"",
+f3b6e8d9-2c7f-4f9e-a5d4-9e4a7f5b3e6c,"Stark Enterprises Corp",8f9b7a4e-5d6f-47e1-a2b8-6f4e7d8b9c5a,1,Primary,1,"Active",,"",,"",
+e4d7f6a3-5b2c-4f8e-9c3a-7f5d4e6b9a7c,"Stark Enterprises Corp Finance",8f9b7a4e-5d6f-47e1-a2b8-6f4e7d8b9c5a,2,Billing,1,"Active",,"",,"",
+b8d3e7c5-6f7a-4f8c-a9d2-7e4f3d9a5e7b,"SI Solutions Corp",2a3e5d7b-4f6a-4d8e-a1c5-8b2e9f6d3c5b,1,Primary,1,"Active",,"",,"",
+f9a3b4e7-2f6c-4d8b-9a5e-3f7d4e6b8c2a,"SI Solutions Finance",2a3e5d7b-4f6a-4d8e-a1c5-8b2e9f6d3c5b,2,Billing,1,"Active",,"",,"",
+d5e7f9b3-7e4c-4f9a-a7c2-8e5f4d7b3e6a,"SI Logistics Corp",3d8f6c7e-4c5a-4b3d-8f9c-6a7e5b2d4f8c,1,Primary,1,"Active",,"",,"",
+b3a5e7d4-8f2c-4e9b-9d6a-2f7d3e5c4a8b,"SI Logistics Finance",3d8f6c7e-4c5a-4b3d-8f9c-6a7e5b2d4f8c,2,Billing,1,"Active",,"",,"",
+f6a5e3d7-4b5a-4f9c-a2b7-9d3e7f6a5c4d,"Stark Relief Fdtn Corp",5e4d6c2a-2f7b-4f8a-a1d2-8b7c9f5d3e6b,1,Primary,1,"Active",,"",,"",
+f8a331e6-3497-45fb-bbc6-449700610bc7,"Stark Relief Fdtn Finance",5e4d6c2a-2f7b-4f8a-a1d2-8b7c9f5d3e6b,2,Billing,1,"Active",,"",,"",
+b4c6d8e9-7a5d-4f9a-a6c7-8b2d9e5a4f7c,"Maria Stark Fdtn Corp",7d4c3e9b-5a6d-4f7a-b2c8-9f8b7e6d4c3a,1,Primary,1,"Active",,"",,"",
+28d2cf71-0e70-48c3-a64a-7f3badac4d1d,"Maria Stark Fdtn Finance",7d4c3e9b-5a6d-4f7a-b2c8-9f8b7e6d4c3a,2,Billing,1,"Active",,"",,"",
+a7d6e4f5-5b4c-4e9b-a2d6-9c7f3d5a7b2e,"Hammer Ind Corp",0a3b6e7f-8b7d-4f1a-a4f2-7d8b3c5e7f4a,1,Primary,66,"Deactivated",,"",,"",
+c2d5e8f4-7a3c-4e9d-8b6f-5f4a3e7b6d9c,"Hammer Ind Finance",0a3b6e7f-8b7d-4f1a-a4f2-7d8b3c5e7f4a,2,Billing,66,"Deactivated",,"",,"",
+d7e6a5f4-3b4d-4f8e-a7c2-5f9a4d7e5b6a,"Pym Tech Corp",7d5e6c2a-2f7b-4f9c-8b3a-5c8d7e3c6b7d,1,Primary,66,"Deactivated",,"",,"",
+e7a5d4c6-2b8c-4f9d-9e3a-6f4d7e3c5a8b,"Pym Tech Finance",7d5e6c2a-2f7b-4f9c-8b3a-5c8d7e3c6b7d,2,Billing,66,"Deactivated",,"",,"",
+c6f7d9a3-5a8f-4f9e-a2c5-7e3f4d7a9b6e,"Roxxon Corp",7c9d2e8b-1f2c-4d3f-a8b5-2e3d4c7e8f9a,1,Primary,404,"Blocked",,"",,"",
+a8f4e7c3-2b5d-4f9e-9a6c-3f7e5b4d2a9c,"Roxxon Corp Finance",7c9d2e8b-1f2c-4d3f-a8b5-2e3d4c7e8f9a,2,Billing,404,"Blocked",,"",,"",
+f9a4e7d6-4c5b-4f9e-a7b3-6e4d8b5f9c7a,"DODC Primary",6b8e5f4d-2c7a-4f9d-8a3e-5c8b2d7e9f6a,1,Primary,1,"Active",,"",,"",
+d7f4e8b2-5a6c-4f9d-8c3a-7b5d4e6f2a8c,"DODC Finance",6b8e5f4d-2c7a-4f9d-8a3e-5c8b2d7e9f6a,2,Billing,1,"Active",,"",,"",
+b3f6d7e9-2f4a-4f9b-a2d4-7c5a9e3f6b7c,"S.H.I.E.L.D. Primary",4e5c7a8d-1b3f-4d6a-8c5e-4f3a8d7e9b2c,1,Primary,1,"Active",,"",,"",
+c6f3e7a4-2b9d-4f8e-9c5a-6f7e4d3b2a8c,"S.H.I.E.L.D. Finance",4e5c7a8d-1b3f-4d6a-8c5e-4f3a8d7e9b2c,2,Billing,1,"Active",,"",,"",
+f5b6d8e9-7e5a-4f9e-a7d6-8b2c9f5a4d6b,"AIM Corp",5f8d4c7b-7a3e-4d8f-b5a4-8c6d2e3c7b9e,1,Primary,404,"Blocked",,"",,"",
+a4d5f8e7-3b2c-4f9d-8c6a-7f5b3e4d9a8c,"AIM Finance",5f8d4c7b-7a3e-4d8f-b5a4-8c6d2e3c7b9e,2,Billing,404,"Blocked",,"",,"",
+d9e7f6a5-4b6c-4f9d-a7b3-9e5a4f7d2b3c,"US DOD Primary",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,1,Primary,1,"Active",,"",,"",
+e5b7d4f3-3c6d-4f9a-9e7c-2f4d6a5b9e3c,"US DOD Finance",f9b2d8e5-5c4b-4f8d-92c1-7d3a6b5f7c4e,2,Billing,1,"Active",,"",,"",
+a8f9c6d7-2b4c-4f9e-a2b6-5c3f7d9b4e5a,"Cybertek Inc Corp",0f7a6b5e-3d2c-4f8d-9c7a-2e5f3b4a9d7c,1,Primary,404,"Blocked",,"",,"",
+3c0c5981-e662-4569-aab2-cbd651d4b1ca,"MIT University Primary",d5e6a8f2-2b4f-411c-8a3b-6f2c3e4d7a6c,1,Primary,1,"Active",,"",,"",
+08333d40-953c-4f00-ab10-1555c1aa8829,"S.H.I.E.L.D. Academy Primary",971fe4aa-039a-4bdd-ad19-2c1da6a10c10,1,Primary,1,"Active",,"",,"",
+bf10c40a-fe76-4664-962f-60b8dfc00ea1,"S.H.I.E.L.D. Academy Finance",971fe4aa-039a-4bdd-ad19-2c1da6a10c10,2,Billing,1,"Active",,"",,"",
+b03b3da1-ab48-4d0e-892f-e4725861d10d,"AccuTech R&D Corp",d9e4fd49-d1e2-4bac-a702-53e58136d65c,1,Primary,1,"Active",,"",,"",
+156f7f47-d097-4082-a224-486339ca8259,"AccuTech R&D Finance",d9e4fd49-d1e2-4bac-a702-53e58136d65c,2,Billing,1,"Active",,"",,"",
+08dc8b3c-2d7c-48ea-9ea1-7889d6ab21b9,"Cordco Corp",688994aa-54bf-4034-874e-305672d9e6d6,1,Primary,1,"Active",,"",,"",
+04f4fccd-733a-4d45-a17b-782c74eab25d,"Cordco Finance",688994aa-54bf-4034-874e-305672d9e6d6,2,Billing,1,"Active",,"",,"",
+fe93d111-3139-4399-a60d-fc206b73ee98,"September Fdtn Corp",e8cbbd6d-9b58-48df-88fd-1b6d04404d58,1,Primary,1,"Active",,"",,"",
+d53d6329-5d1c-4d14-b849-2e7e052737b9,"September Fdtn Finance",e8cbbd6d-9b58-48df-88fd-1b6d04404d58,2,Billing,1,"Active",,"",,"",
+bdf808f9-35f6-407e-ba33-9f68dd0d83fe,"SI Racing Team Corp",9be60f5e-9d14-4c49-aec3-edf1befe264f,1,Primary,1,"Active",,"",,"",
+0d6bf9d4-4f62-45a6-95af-25180ae2ee45,"SI Racing Team Corp",9be60f5e-9d14-4c49-aec3-edf1befe264f,2,Billing,1,"Active",,"",,"",
+6c2baab7-2158-4550-83fe-6816a91f86d1,"Midtown School of Sci & Tech Primary",fc678391-edcb-42d9-9388-8a18ebd62f4e,1,Primary,1,"Active",,"",,"",
+29ea600d-265a-4d2a-9cd3-c33c0570d7f5,"GW High School Primary",07a3452e-83fe-443a-bf3c-e728ebbde877,1,Primary,1,"Active",,"",,"",
