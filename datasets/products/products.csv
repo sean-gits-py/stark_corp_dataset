@@ -1,53 +1,8 @@
-product_uuid|product_name|manufacturer_id|manufacturer_name|brand_id|brand_name|product_model|subcategory_id
-e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|Iron Man Suit Mark I|1|Stark Industries|101|Stark Tech|Mark I|1
-fc501abb-3f21-47e2-8283-65426e04e953|Iron Man Suit Mark II|1|Stark Industries|101|Stark Tech|Mark II|1
-52f2181a-f9e4-4f4e-aef7-c4eeecfdc62e|Iron Man Suit Mark III|1|Stark Industries|101|Stark Tech|Mark III|1
-6c04d83f-488c-4a7e-aed3-6d5ed44eea4c|Iron Man Suit Mark IV|1|Stark Industries|101|Stark Tech|Mark IV|1
-9873dfb0-6a89-4c07-85e1-f3f1725ee8ea|Iron Man Suit Mark V|1|Stark Industries|101|Stark Tech|Mark V|1
-fc81a7f2-9354-4677-b11f-72e7a22f14c4|Iron Man Suit Mark VI|1|Stark Industries|101|Stark Tech|Mark VI|1
-6491eb79-9c2b-4fd7-b6a5-8e54b73dbf5a|Iron Man Suit Mark VII|1|Stark Industries|101|Stark Tech|Mark VII|1
-9b686134-1926-4673-8280-0d112c1c7b6f|Iron Man Suit Mark XLII|1|Stark Industries|101|Stark Tech|Mark XLII|1
-c6940f54-012b-4ab3-b3f2-1224eac4020e|War Machine Suit Mark I|1|Stark Industries|102|War Machine|Mark I|1
-70f36b42-5dc0-4d96-bca3-72c1df9d1cb2|War Machine Suit Mark II|1|Stark Industries|102|War Machine|Mark II|1
-8e20b30a-765c-4b1e-bd59-b90e4002a707|War Machine Suit Mark III|1|Stark Industries|102|War Machine|Mark III|1
-fbecdeaf-ff7c-4d6a-a30d-7b06121d45e2|Hulkbuster Armor|1|Stark Industries|101|Stark Tech|Hulkbuster|2
-e6479f9e-3312-47c1-b1cc-54c0c4a97255|Arc Reactor|1|Stark Industries|101|Stark Tech|ARC-01|3
-08b8c14d-9bbd-4573-8d34-7da303245b4d|JARVIS AI System|1|Stark Industries|101|Stark Tech|JARVIS|4
-1f05e53a-2703-40ed-9316-94703b9cbf63|Ultron AI System|1|Stark Industries|101|Stark Tech|Ultron|4
-52d51b3d-3454-424b-b04c-1867d4ad8e95|AIM Extremis Serum|2|Advanced Idea Mechanics|103|AIM BioTech|Extremis|5
-3f51c4b0-964f-4e1d-b2be-6f1d3e5efc4a|Pym Particles|3|Pym Technologies|104|Pym Tech|Pym-01|6
-c25c5ad1-71c3-4f41-ae7c-d7f5bc9efc51|Yellowjacket Suit|3|Pym Technologies|104|Pym Tech|Yellowjacket|1
-c2c7820c-6e47-4d50-ae4f-d2e5be4f48f3|Ant-Man Suit|3|Pym Technologies|104|Pym Tech|Ant-Man|1
-cfe00442-5f4b-4a7f-b37a-85d47815c37f|Spider-Man Suit (Homecoming)|4|Parker Industries|105|Stark Tech|Spider-Man|1
-64a4f368-923b-4f56-a0c4-3b2713c1ef43|Spider-Man Suit (Far From Home)|4|Parker Industries|105|Stark Tech|Spider-Man|1
-9f04d58d-6b7a-4296-b3a8-29b7dbb1b9cf|Vibranium Shield|5|Wakandan Royal Family|106|Wakandan Tech|Shield|7
-92e98210-febf-454e-8b8d-8b4e24599db6|Vibranium Spear|5|Wakandan Royal Family|106|Wakandan Tech|Spear|7
-3c3e3a39-b02f-4d4a-a1d6-c5ff4b1f61d5|Vibranium Suit|5|Wakandan Royal Family|106|Wakandan Tech|Suit|1
-ad4595ec-5f2c-46ea-b9a0-2a5b5b8d12d5|Black Panther Suit|5|Wakandan Royal Family|106|Wakandan Tech|Black Panther|1
-8dbb1d34-2454-4a3e-89e3-6c1c5f5f8f3f|Winter Soldier Arm|6|HYDRA|107|HYDRA Tech|Winter Arm|8
-c38c8c2b-f49a-4c57-b3c7-0a1a5f8e0f3b|Chitauri Scepter|7|HYDRA|107|HYDRA Tech|Scepter|9
-77b2b7ea-2e5e-4c99-b3a1-54b4e7e5e1d1|Tesseract|7|HYDRA|107|HYDRA Tech|Tesseract|10
-3b5e5a44-b2f3-4373-90be-9b3c4a4d9f5a|Loki's Scepter|8|HYDRA|107|HYDRA Tech|Loki's Scepter|9
-4c8d4b48-f0f1-4a4e-b5f2-c3d3b1b1c3b5|Mind Stone|8|HYDRA|107|HYDRA Tech|Mind Stone|11
-f63c3c5b-d2d1-4672-a5c5-5c3b2b3a7c4a|Power Stone|9|Nova Corps|108|Nova Tech|Power Stone|11
-2e2a7d9f-b2b1-4b4f-a1d2-c1c2e3e3f3a5|Space Stone|9|Nova Corps|108|Nova Tech|Space Stone|11
-0d1e0e1c-9f8b-4e3a-9c1b-b3c3d4c4e4f5|Reality Stone|10|Collectors|109|Collectors Tech|Reality Stone|11
-e7d5b5f4-a1d2-4c3b-b5a4-3e4c5b3a1c5a|Time Stone|11|Masters of the Mystic Arts|110|Mystic Tech|Time Stone|11
-b7e1f1a5-c5d2-4b5c-b1d3-9c2e3a3d4b5f|Soul Stone|12|Thanos|111|Thanos Tech|Soul Stone|11
-0f7b4a9d-2c5d-4b4e-b2f3-a1c2c3d4b3e5|Nano Gauntlet|1|Stark Industries|101|Stark Tech|Nano Gauntlet|12
-9d5f5c2b-0c1e-4b1d-a2c2-e1f3a4b5c3d4|Infinity Gauntlet|12|Thanos|111|Thanos Tech|Infinity Gauntlet|12
-8b8e8f7a-4d3c-4b5f-b2a1-3e1c4a5b5c3f|Ultron Bots|1|Stark Industries|101|Stark Tech|Ultron Bot|13
-1c2d2b3f-9a0b-4d4e-a1b5-c3e3f4a5b1c2|S.H.I.E.L.D. Helicarrier|13|S.H.I.E.L.D.|112|S.H.I.E.L.D. Tech|Helicarrier|14
-3e3b3c7a-5f5b-4a1d-b4e2-2c1a3d3f4b5a|S.H.I.E.L.D. Quinjets|13|S.H.I.E.L.D.|112|S.H.I.E.L.D. Tech|Quinjet|14
-7d7f7e5a-2a3c-4b4e-b5c3-a1f1c2d3e3f5|Captain America Shield|14|Stark Industries|101|Stark Tech|Shield|7
-c3d1e1b5-5b2c-4d1e-a3a2-b5c3f4e3a1b5|Vibranium Knuckles|5|Wakandan Royal Family|106|Wakandan Tech|Knuckles|8
-b5e5a5f1-4b3c-4d5a-a2f2-c2e3b3a4d4f5|Ultron Core|1|Stark Industries|101|Stark Tech|Ultron Core|4
-4b4f4a5a-1e3d-4c3a-b2d2-a3c5b4e3f1a5|Arc Reactor Mark II|1|Stark Industries|101|Stark Tech|ARC-02|3
-9b9a8a8e-5c4f-4b4d-a2e1-b1c2e3d4f3b5|Spider-Man Suit (Stealth)|4|Parker Industries|105|Stark Tech|Spider-Man Stealth|1
-3a3e3d1c-2b5a-4f1c-a3e2-b4f5c2e3a3b5|Web Shooters|4|Parker Industries|105|Stark Tech|Web Shooter|15
-b5c5e5a4-1b3a-4d2e-b3c3-a1f4e3d2b1c5|Iron Spider Suit|1|Stark Industries|101|Stark Tech|Iron Spider|1
-a3c3d3e2-5a5b-4f3a-b2d1-c1e3b3a2f4e5|Captain Marvel Suit|15|Kree Empire|113|Kree Tech|Captain Marvel|1
-c2f2d2b4-3a1e-4b3f-a5c2-b3e3c5d4a1b5|Photon Blasters|15|Kree Empire|113|Kree Tech|Photon Blasters|16
-5b5e5a3a-4d3b-4f1e-b5a2-c2d3c4e3b1f5|Quantum Tunnel|3|Pym Technologies|104|Pym Tech|Quantum Tunnel|17
-c5a5b5f4-1e3a-4b5c-a2d1-b3c2d4e3f1a5|Vision's Body|1|Stark Industries|101|Stark Tech|Vision's Body|13
-f3f3a3e1-4d5c-4b3f-a2b3-c4d3b5e3a1f5|Time Twister|11|Masters of the Mystic Arts|110|Mystic Tech|Time Twister|18
+product_uuid,product_name,manufacturer_id,manufacturer_name,brand_id,brand_name,product_model,subcategory_id
+3e3b3c7a-5f5b-4a1d-b4e2-2c1a3d3f4b5a,"Quinjet v1",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",101,"Stark Tech","Quinjet",14
+e6479f9e-3312-47c1-b1cc-54c0c4a97255,"Arc Reactor",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",101,"Stark Tech","ARC-01",3
+4b4f4a5a-1e3d-4c3a-b2d2-a3c5b4e3f1a5,"Arc Reactor Mark II",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",101,"Stark Tech","ARC-02",3
+fbecdeaf-ff7c-4d6a-a30d-7b06121d45e2,"Hulkbuster Armor",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",101,"Stark Tech","Hulkbuster",2
+b5c5e5a4-1b3a-4d2e-b3c3-a1f4e3d2b1c5,"Iron Spider Suit",bc8d4ef8-4c35-4f1d-a2b6-8f27e3c7db52,"Stark Industries",101,"Stark Tech","Iron Spider",1
+9b9a8a8e-5c4f-4b4d-a2e1-b1c2e3d4f3b5,"Spider-Man Suit (Stealth)",TBD,"Parker Industries",105,"Stark Tech","Spider-Man Stealth",1
+3a3e3d1c-2b5a-4f1c-a3e2-b4f5c2e3a3b5,"Web Shooters",TBD,"Parker Industries",105,"Stark Tech","Web Shooter",15
