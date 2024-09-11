@@ -17,50 +17,13 @@ This data dictionary provides descriptions and details for each field used in th
 
 ### `manufacturer_id` and `manufacturer_name`
 - **1**: Stark Industries
-- **2**: Advanced Idea Mechanics
-- **3**: Pym Technologies
-- **4**: Parker Industries
-- **5**: Wakandan Royal Family
-- **6**: HYDRA
-- **7**: S.H.I.E.L.D.
-- **8**: Nova Corps
-- **9**: Collectors
-- **10**: Masters of the Mystic Arts
-- **11**: Thanos
-- **12**: Kree Empire
+- **2**: Parker Industries
+
 
 ### `brand_id` and `brand_name`
 - **101**: Stark Tech
-- **102**: War Machine
-- **103**: AIM BioTech
-- **104**: Pym Tech
 - **105**: Stark Tech
-- **106**: Wakandan Tech
-- **107**: HYDRA Tech
-- **108**: Nova Tech
-- **109**: Collectors Tech
-- **110**: Mystic Tech
-- **111**: Thanos Tech
-- **112**: S.H.I.E.L.D. Tech
-- **113**: Kree Tech
 
 ### `subcategory_id`
-- **1**: Suit
-- **2**: Armor
-- **3**: Reactor
-- **4**: AI System
-- **5**: Serum
-- **6**: Particle
-- **7**: Weapon
-- **8**: Enhancement
-- **9**: Scepter
-- **10**: Cube
-- **11**: Infinity Stone
-- **12**: Gauntlet
-- **13**: Robot
-- **14**: Aircraft
-- **15**: Shooter
-- **16**: Blaster
-- **17**: Tunnel
-- **18**: Twister
+- **1**: TBD
 
