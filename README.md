@@ -11,5 +11,7 @@ General info:
 - [Organizations](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/organizations)
 - Sales
 - [Employees](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/employee)
-- Shippers
+- Logistics
 - Locations
+- Price
+- Price History
