@@ -20,7 +20,7 @@ employee_id,person_id,first_name,last_name,contact_id,dept_id,position,emp_start
 19,64,"Quentin","Beck",120,5,"Engineer",5/1/16,6/30/19,5/1/16 8:00,6/30/19 17:00
 20,66,"Janice","Lincoln",121,5,"Engineer",2/15/15,,2/15/15 8:00,1/12/24 12:00
 21,67,"Sharon","Davis",122,5,"Architect",4/10/14,,4/10/14 8:00,1/12/24 12:00
-22,68,"William,"J. Law III",123,5,"Architect",11/5/13,,11/5/13 8:00,1/12/24 12:00
+22,68,"William","J. Law III",123,5,"Architect",11/5/13,,11/5/13 8:00,1/12/24 12:00
 23,69,"Walt","Hadfield",124,5,"Architect",7/20/12,,7/20/12 8:00,1/12/24 12:00
 24,70,"Natalie","Rushman",125,2,"Assistant",3/1/10,12/31/11,3/1/10 8:00,12/31/11 17:00
 25,71,"Bambi","Arbogast",126,3,"Secretary",1/1/10,,1/1/10 8:00,1/12/24 12:00
