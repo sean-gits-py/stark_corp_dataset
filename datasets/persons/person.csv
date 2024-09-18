@@ -1,111 +1,35 @@
-person_uuid|first_name|middle_name|last_name|name_suffix|pref_name|date_of_birth|gender|species_id
-e3bb83f6-c9c4-4d0c-bb3e-89d5a1ff7f5d|Tony|Edward|Stark|Jr.|Iron Man|1970-05-29|Male|Human
-fc501abb-3f21-47e2-8283-65426e04e953|Pepper||Potts||Pepper|1972-06-04|Female|Human
-52f2181a-f9e4-4f4e-aef7-c4eeecfdc62e|James|Rupert|Rhodes||Rhodey|1968-10-06|Male|Human
-6c04d83f-488c-4a7e-aed3-6d5ed44eea4c|Happy||Hogan||Happy|1967-02-05|Male|Human
-9873dfb0-6a89-4c07-85e1-f3f1725ee8ea|Obadiah||Stane|||1953-01-29|Male|Human
-fc81a7f2-9354-4677-b11f-72e7a22f14c4|Natasha|Alianovna|Romanoff||Black Widow|1984-12-03|Female|Human
-6491eb79-9c2b-4fd7-b6a5-8e54b73dbf5a|Nick|Joseph|Fury|||1951-07-04|Male|Human
-9b686134-1926-4673-8280-0d112c1c7b6f|Maria||Hill|||1982-04-07|Female|Human
-c6940f54-012b-4ab3-b3f2-1224eac4020e|Phil|J.|Coulson|||1964-07-08|Male|Human
-70f36b42-5dc0-4d96-bca3-72c1df9d1cb2|Harley||Keener|||2001-02-23|Male|Human
-8e20b30a-765c-4b1e-bd59-b90e4002a707|Yinsen||Ho|||1960-11-15|Male|Human
-fbecdeaf-ff7c-4d6a-a30d-7b06121d45e2|Aldrich||Killian|||1973-07-09|Male|Human
-e6479f9e-3312-47c1-b1cc-54c0c4a97255|Raza|||||1970-08-12|Male|Human
-08b8c14d-9bbd-4573-8d34-7da303245b4d|Christine||Everhart|||1980-01-16|Female|Human
-1f05e53a-2703-40ed-9316-94703b9cbf63|Jarvis||||J.A.R.V.I.S.|1920-10-18|Male|AI
-52d51b3d-3454-424b-b04c-1867d4ad8e95|Edwin||Jarvis|||1909-05-01|Male|Human
-3f51c4b0-964f-4e1d-b2be-6f1d3e5efc4a|Jocasta|||||1985-03-19|Female|AI
-c25c5ad1-71c3-4f41-ae7c-d7f5bc9efc51|Erik|Selvig||||1950-08-09|Male|Human
-c2c7820c-6e47-4d50-ae4f-d2e5be4f48f3|Janet|Van Dyne||||1970-05-31|Female|Human
-cfe00442-5f4b-4a7f-b37a-85d47815c37f|Hank|Pym||||1945-09-21|Male|Human
-64a4f368-923b-4f56-a0c4-3b2713c1ef43|Justin||Hammer|||1965-01-01|Male|Human
-9f04d58d-6b7a-4296-b3a8-29b7dbb1b9cf|Arnim||Zola|||1910-10-08|Male|Human
-92e98210-febf-454e-8b8d-8b4e24599db6|Helen||Cho|||1985-02-17|Female|Human
-3c3e3a39-b02f-4d4a-a1d6-c5ff4b1f61d5|Howard|Anthony|Stark|Sr.||1917-08-15|Male|Human
-ad4595ec-5f2c-46ea-b9a0-2a5b5b8d12d5|Peggy|Carter||||1921-04-09|Female|Human
-8dbb1d34-2454-4a3e-89e3-6c1c5f5f8f3f|Bruce|David|Banner|M.D. Ph.D.|Hulk|1969-12-18|Male|Human
-c38c8c2b-f49a-4c57-b3c7-0a1a5f8e0f3b|Thor|Odinson||||964-01-01|Male|Asgardian
-77b2b7ea-2e5e-4c99-b3a1-54b4e7e5e1d1|Clint|Francis|Barton||Hawkeye|1971-01-07|Male|Human
-3b5e5a44-b2f3-4373-90be-9b3c4a4d9f5a|Wanda||Maximoff||Scarlet Witch|1989-02-10|Female|Mutant
-4c8d4b48-f0f1-4a4e-b5f2-c3d3b1b1c3b5|Vision||||Vision|2015-05-01|Male|Synthozoid
-f63c3c5b-d2d1-4672-a5c5-5c3b2b3a7c4a|Peter|Benjamin|Parker||Spider-Man|2001-08-10|Male|Mutate
-2e2a7d9f-b2b1-4b4f-a1d2-c1c2e3e3f3a5|Stephen|Vincent|Strange|M.D.|Doctor Strange|1976-11-18|Male|Human
-0d1e0e1c-9f8b-4e3a-9c1b-b3c3d4c4e4f5|T'Challa||||Black Panther|1980-05-23|Male|Human
-e7d5b5f4-a1d2-4c3b-b5a4-3e4c5b3a1c5a|Scott|Edward|Lang||Ant-Man|1969-07-06|Male|Human
-b7e1f1a5-c5d2-4b5c-b1d3-9c2e3a3d4b5f|Peter|Jason|Quill||Star-Lord|1980-06-29|Male|Human/Celestial
-0f7b4a9d-2c5d-4b4e-b2f3-a1c2c3d4b3e5|Gamora|Zen|Whoberi|||1988-03-24|Female|Zen-Whoberian
-9d5f5c2b-0c1e-4b1d-a2c2-e1f3a4b5c3d4|Drax|The Destroyer||||1970-02-18|Male|Kylosian
-8b8e8f7a-4d3c-4b5f-b2a1-3e1c4a5b5c3f|Rocket|Raccoon||||1990-08-13|Male|Genetically Enhanced
-1c2d2b3f-9a0b-4d4e-a1b5-c3e3f4a5b1c2|Groot||||Groot|2000-06-01|Male|Flora Colossus
-3e3b3c7a-5f5b-4a1d-b4e2-2c1a3d3f4b5a|Nebula|||||1989-05-17|Female|Luphomoid
-7d7f7e5a-2a3c-4b4e-b5c3-a1f1c2d3e3f5|Mantis|||||1985-07-02|Female|Empath
-c3d1e1b5-5b2c-4d1e-a3a2-b5c3f4e3a1b5|Yondu|Udonta||||1960-12-07|Male|Centaurian
-b5e5a5f1-4b3c-4d5a-a2f2-c2e3b3a4d4f5|Kraglin|Obfonteri||||1979-01-14|Male|Human
-4b4f4a5a-1e3d-4c3a-b2d2-a3c5b4e3f1a5|Shuri|||||2000-11-01|Female|Human
-9b9a8a8e-5c4f-4b4d-a2e1-b1c2e3d4f3b5|Okoye|||||1983-04-12|Female|Human
-3a3e3d1c-2b5a-4f1c-a3e2-b4f5c2e3a3b5|M'Baku|||||1982-05-21|Male|Human
-b5c5e5a4-1b3a-4d2e-b3c3-a1f4e3d2b1c5|Wong|||||1978-11-21|Male|Human
-a3c3d3e2-5a5b-4f3a-b2d1-c1e3b3a2f4e5|Karl|Mordo||||1975-02-23|Male|Human
-c2f2d2b4-3a1e-4b3f-a5c2-b3e3c5d4a1b5|Sam|Thomas|Wilson||Falcon|1978-09-23|Male|Human
-5b5e5a3a-4d3b-4f1e-b5a2-c2d3c4e3b1f5|Bucky|James|Barnes||Winter Soldier|1917-03-10|Male|Human
-c5a5b5f4-1e3a-4b5c-a2d1-b3c2d4e3f1a5|Sharon||Carter|||1984-12-11|Female|Human
-f3f3a3e1-4d5c-4b3f-a2b3-c4d3b5e3a1f5|Loki|Laufeyson||||965-12-31|Male|Frost Giant/Asgardian
-b4b4e4a5-2f3c-4d1a-b5e1-c3a2b5d3f4c5|Valkyrie|||||982-08-01|Female|Asgardian
-c1b1f1d3-5a4c-4e2d-a3b3-c5a5f4e3d2b5|Hela|||||943-04-03|Female|Asgardian
-7c7b7e3a-2f1d-4a5c-b3e2-a1b5f3c4d2e5|Heimdall|||||947-09-09|Male|Asgardian
-2a2e2d4c-5b3f-4a2e-a1c5-b4e3b2f1a5d5|Jane||Foster|||1981-03-12|Female|Human
-3b3c3f5a-1a5d-4e3b-b4a2-c3e2f4b5d1e5|Darcy||Lewis|||1986-07-21|Female|Human
-9f9e9c8a-5b4a-4e3f-b2d1-a3b5c4e3d2f5|Erik|Selvig||||1950-09-07|Male|Human
-8d8e8f7b-4c3a-4d2f-b1e5-c2a3b5e4f3c5|Jasper||Sitwell|||1971-12-29|Male|Human
-1c1f1e2b-5d3a-4b5e-a2f4-b3c2a1e3d4f5|Brock||Rumlow|||1970-10-27|Male|Human
-e3e3a3d1-4b5c-4f2e-a1d3-c2b5e4f3a1b5|Alexander||Pierce|||1953-06-04|Male|Human
-a5a5b5e4-2c3f-4d3b-a2e1-c5a4f3b3d2e5|Anton||Vanko|||1954-04-13|Male|Human
-4c4e4d1a-5b3f-4f2e-a3b5-c2e3d4b5a1f5|Ivan||Vanko||Whiplash|1980-03-15|Male|Human
-b3b3c3a1-1f5d-4e4c-a5b3-c1d2f3e4a5b5|Quentin||Beck||Mysterio|1981-02-02|Male|Human
-5a5b5e3f-2c4d-4b1a-a3e1-c5a3f4b3d1e5|William|Ginter|Riva|||1975-11-19|Male|Human
-c2c2f2d4-5a3b-4e5a-b2f3-c4d3a1b5e3f5|Janice||Lincoln|||1982-08-09|Female|Human
-7f7a7b6c-3e2a-4d5c-b4e1-a3c5b2d4f3e5|Dimitri||Smerdyakov||Chameleon|1980-09-23|Male|Human
-0e0a0f9c-5d3a-4b1e-b2f4-c3a5e3d2b4f5|Michelle||Jones||MJ|2001-05-15|Female|Human
-b2b1f1e3-4c3d-4f5a-a2b5-c5e3a1d2b4f5|Brad||Davis|||2001-11-20|Male|Human
-a5e5c5b2-2d3f-4b4e-a1c3-c2f4e3a5d1b5|Roger||Harrington|||1970-04-17|Male|Human
-e1e1a1f5-4b3d-4c5a-a2f3-c1e3d4b2f4a5|John|Jonah|Jameson Jr.||J. Jonah|1962-04-04|Male|Human
-5d5a5b3e-2f1c-4b3a-a5e1-c5a3b2e4f3d5|May|Reilly|Parker||Aunt May|1970-10-05|Female|Human
-c4c3f3e2-5b4d-4a2e-b1a5-c2d3b5e3f1a5|Ned||Leeds|||2001-06-12|Male|Human
-8a8e8d7c-4f3b-4b2a-a1d3-b5e4c3d5a2f5|Adrian||Toomes||Vulture|1970-03-09|Male|Human
-1f1b1a2d-5c3a-4e5f-a2b5-c3e3f4a5b1d5|Matt|Michael|Murdock||Daredevil|1984-12-15|Male|Human
-d3d1e1a5-4b2c-4f5a-a1e3-c4d5b3e2f3a5|Karen||Page|||1986-06-18|Female|Human
-a3a3b3f1-2e5d-4b3f-a2c4-b5e1d3c5a4e5|Luke|Carl|Cage|||1976-11-09|Male|Human
-2d2c2f4b-5a3e-4e1a-b2f3-c1e5b3d2a5c5|Jessica||Jones|||1986-04-20|Female|Human
-4e4b4a1f-1d3e-4c5a-a3b5-c3d2f4e5b2a5|Franklin|Percy|Nelson||Foggy|1984-05-15|Male|Human
-b5b4a4e1-5f3d-4c5b-a2e3-c5f3a1d2b3e5|Wilson|Grant|Fisk||Kingpin|1967-03-01|Male|Human
-3d3f3b2a-4e5d-4a1e-a2b5-c4e3b5f2a5d5|Elektra|Natchios||||1985-11-10|Female|Human
-e4e2d2f3-5b1a-4c5e-a3b5-c1a3e5d4b2f5|Nobu||Yoshioka|||1970-02-14|Male|Human
-1b1f1e3d-2a5c-4b5a-a1f3-c3d2e4b5f3a5|Alexandra||Reid|||1960-01-31|Female|Human
-5c5e5a2a-3d1f-4b3e-a2c5-b5f4e3a1d3b5|Daniel|Thomas|Rand||Iron Fist|1990-09-15|Male|Human
-f5f1a1c3-4b5e-4d3b-a2f3-c2a3d5e3b4f5|Madame||Gao|||1950-02-12|Female|Human
-a2a1f1e3-5c4d-4b2a-a3e1-c4f3b5d2a1e5|Claire||Temple|||1982-04-02|Female|Human
-3b3a3f5c-2d1e-4e3b-a2b5-c5e3a1d4b5f5|Luke||Jacobson|||1981-07-22|Male|Human
-d1d3e3b5-5a4f-4c5d-a2e3-c2b5f3a1e2d5|Abraham||Erskine|||1889-12-10|Male|Human
-4a4f4e1b-3c5a-4b3e-a2d5-c5a3b2e4f3d5|John||Walker||U.S. Agent|1986-09-28|Male|Human
-e5e2d2f4-5b1a-4c5e-a3b5-c1f4a3e5d2b5|Valentina|Allegra|de Fontaine||Val|1973-03-26|Female|Human
-a1f1a2d3-4b5c-4f3a-a2b5-c3e4d5b2a3f5|Everett|Kenneth|Ross|||1965-08-15|Male|Human
-5d5a5c3e-2f1c-4b3a-a5e1-c5b3d4e3a1f5|Riri||Williams||Ironheart|2002-06-07|Female|Human
-c5c3b3a1-5f4d-4e2b-a1f3-c2d5b3e4a5f5|Ulysses||Klaue|||1970-11-26|Male|Human
-f2f1e1d3-4b5a-4c3e-a2b5-c5e3f4b2d3a5|Erik|Stevens|Killmonger|||1985-08-11|Male|Human
-a4a2c2f3-5d3b-4e1a-a2c5-b4e5b5f3d1a5|Scott|Edward|Lang||Ant-Man|1969-07-06|Male|Human
-5b5f5d1c-4e3a-4b2e-a1c5-c3f3a5b3d4e5|Michael||Gorani|||1982-10-15|Male|Human
-3e3c3a5f-1d3b-4c5e-a2b5-c1e3f4b5d2a5|Evetta||Gorani|||1984-11-22|Female|Human
-0a0f0b9c-5d3a-4e1f-b2c4-c3a5d2e4b5f5|Gamora|||||1975-06-11|Female|Zen-Whoberian
-b5b2f2e3-4c3d-4b5a-a2f5-c5e3a1d4b2f5|Groot||||Groot|1990-04-25|Male|Flora Colossus
-a5e5c5b2-5d3f-4b1e-a3c5-c4a3b5f2e1d5|Rocket||Raccoon|||1990-12-13|Male|Genetically Enhanced
-5c5e5a2a-4f1d-4b3e-a2c5-c5f4e3b2a3d5|Drax|The Destroyer||||1970-02-18|Male|Kylosian
-b3b3c3a1-5e4f-4d2b-a2f3-c3d4a5b2e1f5|Mantis|||||1985-07-02|Female|Empath
-2f2c2b4d-5a3e-4e1a-a2c5-b4f5e3d1c5a5|Nebula|||||1989-05-17|Female|Luphomoid
-4e4b4a1f-3c5d-4b3e-a2b5-c3f4e3d2b5a5|Yondu||Udonta|||1960-12-07|Male|Centaurian
-3b3a3f5c-1d5e-4b3a-a2f5-c5e4d3b1a5f5|Kraglin||Obfonteri|||1979-01-14|Male|Human
-d1d3e3b5-5a4f-4e2d-a3b5-c2a1f4e3d2b5|Shuri|||||2000-11-01|Female|Human
-b5c5a5f4-3e2d-4b3e-a1c5-c5d3b4a5e1f5|Okoye|||||1983-04-12|Female|Human
-4a4f4e1b-2c5d-4e3f-a1b5-c4f5b3e2a5d5|M'Baku|||||1982-05-21|Male|Human
-e5e2d2f4-1b3a-4c5d-a2e5-c3a5f4b2d3e5|Wong|||||1978-11-21|Male|Human
-a1f1a2d3-5c4b-4b2f-a3e5-c5d3e4a1b2f5|Karl||Mordo|||1975-02-23|Male|Human
+person_uuid,first_name,middle_name,last_name,name_suffix,pref_name,date_of_birth,gender
+7340f32a-ec7d-4050-9284-fb3d089d5d0b,"Howard","","Stark","","Howard","",""
+91628094-a65c-46fd-866c-595ae3b37938,"Edwin","","Jarvis","","Edwin","",""
+e92cd0f8-0d70-445a-a6a2-b5ed1bdc810e,"Tony","","Stark","","Tony","",""
+f961a3e8-d3e4-4010-a435-0e1e3d4793fe,"Pepper","","Potts","","Pepper","",""
+c19e51e7-84e8-4e30-86cc-512b91884ecb,"James","","Rhodes","","James","",""
+37a43dc5-53d2-4b97-bce6-f08d75d29338,"Happy","","Hogan","","Happy","",""
+909b11ef-bbb1-47d3-9e8a-2502a447d601,"Obadiah","","Stane","","Obadiah","",""
+7406ff11-030c-4956-ad46-162ccb5c27ed,"Natasha","","Romanoff","","Natasha","",""
+7015d969-aa11-4877-8654-f7445ce2b778,"Maria","","Hill","","Maria","",""
+24a59cb8-0308-4db5-b908-9df3533160aa,"Harley","","Keener","","Harley","",""
+e1addd1c-c1f8-4fcb-be27-9f65943f492c,"Yinsen","","Ho","","Yinsen","",""
+adfebee4-a04d-4430-af8a-3202e05ea6fb,"Jocasta","","","Jocasta","",""
+9b56b498-a561-42b7-a42d-9999a507a414,"Erik","","Selvig","","Erik","",""
+3963a44e-336a-4d92-825e-9457c6c88a65,"Helen","","Cho","","Helen","",""
+3d401bd8-dbcc-41fa-beab-093ef9e59e23,"Justin","","Hammer","","Justin","",""
+94ce84b4-f7f6-4610-b03f-78d76d20adcb,"Anton","","Vanko","","Anton","",""
+c7537b5e-2fa2-4e33-86ab-2392b67d41c9,"Jason","","Wilkes","","Jason","",""
+1a17ca51-2e9d-4eb7-be94-db7bf5ee481c,"William","","Ginter Riva","","William","",""
+776c8bfd-d79e-4149-a96a-d65e1b7137fe,"Quentin","","Beck","","Quentin","",""
+6fd38e2c-d2bc-4f4a-8127-bfbde27e0109,"Janice","","Lincoln","","Janice","",""
+3214e495-42df-4d30-8dbb-e5b7611192db,"Sharon","","Davis","","Sharon","",""
+6a7ed6a3-2ede-4dd6-99ec-3820a280617b,"William","","J. Law III","","William","",""
+f58de9f4-566a-40a2-9a77-a0e5ea16a96b,"Walt","","Hadfield","","Walt","",""
+f8d65976-41fd-40af-94de-edc00fba2d19,"Natalie","","Rushman","","Natalie","",""
+ea02140e-e6f7-4511-a0d7-09e7e3634dbe,"Bambi","","Arbogast","","Bambi","",""
+0e8a9be1-bd9c-454f-8247-6aea9066078a,"T.","","Bennett","","T.","",""
+a420b3d0-bba4-4c53-a477-1fa78bc18e6f,"Trixie","","","Trixie","",""
+a5ab7c05-8839-4ba0-b9be-b4b04a1b0cbd,"Peter","","Parker","","Peter","",""
+a030915c-8eb0-4e01-9d10-21e21e565904,"Victoria","","Snow","","Victoria","",""
+93c6e3ce-f629-496c-8c6f-904d4916e2b8,"Gutes","","Guterman","","Gutes","",""
+340a180a-73c2-4877-a85e-2280321b7c9f,"Charles","","Healy","","Charles","",""
+d91610a8-9bf8-4421-8404-f15ba4bbe850,"Gilbert","","O'Connor","","Gilbert","",""
+b23f5311-c577-43f8-b0b4-e39562da4b4d,"Klaus","","Haas","","Klaus","",""
+af3529c3-9c68-4c8e-8b7c-0113893c6267,"Karl","","Oakley","","Karl","",""
