@@ -7,7 +7,7 @@ General info:
 - [Products](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/products)
 - [Persons](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/persons)
 - [Order](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/order)
-- Order Details
+- [Order Details](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/order_details)
 - [Organizations](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/organizations)
 - Sales
 - [Employees](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/employee)
