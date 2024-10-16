@@ -1,173 +1,173 @@
 WBS_ID,ID_LVL,Start_Date,End_Date,Status,Description,Notes
-1.0,1,null,null,null,Project Initiation and Planning,
-1.1,2,null,null,null,Define Project Objectives and Scope,Clearly articulate the purpose within Stark Industries
-1.1.1,3,null,null,null,Document project goals and domain context,
-1.1.2,3,null,null,null,Outline project deliverables,Specify tangible outcomes like schema, documentation
-1.1.3,3,null,null,null,Identify project constraints and assumptions,Note limitations like time constraints
-1.2,2,null,null,null,Establish Roles and Responsibilities,Recognize solo development
-1.2.1,3,null,null,null,Acknowledge solo contributor,Plan tasks accordingly
-1.2.2,3,null,null,null,Set up personal project management system,Use tools like Trello or Asana
-1.3,2,null,null,null,Develop Project Plan,
-1.3.1,3,null,null,null,Create project timeline with milestones,
-1.3.2,3,null,null,null,Allocate resources (time, tools),
-1.3.3,3,null,null,null,Set realistic deadlines,
-2.0,1,null,null,null,Understanding the Business Domain,
-2.1,2,null,null,null,Gather Domain Knowledge,Identify key business processes
-2.1.1,3,null,null,null,Identify key business processes,Sales, logistics, procurement, HR, finance
-2.1.2,3,null,null,null,Understand domain entities and relationships,Organizations, Accounts, Persons, Users, Employees
-2.1.3,3,null,null,null,Research industry practices,Study enterprise workflows in manufacturing
-2.2,2,null,null,null,Define the Ubiquitous Language,Compile a glossary of domain terms
-2.2.1,3,null,null,null,Compile glossary of domain terms,Ensure consistent terminology
-2.2.2,3,null,null,null,Use language throughout the project,In documentation, code, schema
-2.3,2,null,null,null,Define Bounded Contexts,Identify subdomains within Stark Industries
-2.3.1,3,null,null,null,Identify subdomains,Sales, Inventory, Logistics, HR, Finance
-2.3.2,3,null,null,null,Establish boundaries and interactions,Determine data flow between departments
-3.0,1,null,null,null,Environment Setup,
-3.1,2,null,null,null,Install and Configure Docker on macOS 15.0.1,
-3.1.1,3,null,null,null,Verify system requirements,
-3.1.2,3,null,null,null,Download and install Docker Desktop,
-3.1.3,3,null,null,null,Configure Docker settings for optimal performance,
-3.2,2,null,null,null,Set Up PostgreSQL 12 via Docker,
-3.2.1,3,null,null,null,Pull PostgreSQL 12 Docker image,
-3.2.2,3,null,null,null,Create Docker container for PostgreSQL,
-3.2.3,3,null,null,null,Expose necessary ports and set environment variables,
-3.3,2,null,null,null,Verify PostgreSQL Installation,
-3.3.1,3,null,null,null,Connect to PostgreSQL using a client,
-3.3.2,3,null,null,null,Run test queries to ensure functionality,
-4.0,1,null,null,null,Domain Modeling,
-4.1,2,null,null,null,Model Domain Entities and Value Objects,
-4.1.1,3,null,null,null,Identify core entities,Organization, Account, Person, User, Employee, Product, Order, Logistics
-4.1.2,3,null,null,null,Define attributes and behaviors,List properties and rules for each entity
-4.1.3,3,null,null,null,Identify value objects,Money, Address, Price
-4.2,2,null,null,null,Define Aggregates and Aggregate Roots,
-4.2.1,3,null,null,null,Group related entities,Order Aggregate, Product Aggregate
-4.2.2,3,null,null,null,Enforce invariants within aggregates,Ensure business rules are maintained
-4.3,2,null,null,null,Design Domain Services (if applicable),
-4.3.1,3,null,null,null,Identify operations outside entities,PricingService, InventoryService
-4.3.2,3,null,null,null,Define interfaces and contracts,Specify inputs, outputs, behaviors
-4.4,2,null,null,null,Define Repositories,
-4.4.1,3,null,null,null,Determine data access patterns,How aggregates are retrieved and persisted
-4.4.2,3,null,null,null,Define repository interfaces,OrderRepository, ProductRepository
-4.5,2,null,null,null,Create Domain Models and Diagrams,
-4.5.1,3,null,null,null,Use UML or ER diagrams,Visualize entities and relationships
-4.5.2,3,null,null,null,Document domain rules and constraints,State rules governing each entity and aggregate
-5.0,1,null,null,null,Database Design,
-5.1,2,null,null,null,Map Domain Model to Database Schema,
-5.1.1,3,null,null,null,Translate entities to tables,Organization, Account, Person tables
-5.1.2,3,null,null,null,Map value objects to table fields,Money fields as DECIMAL with currency codes
-5.1.3,3,null,null,null,Implement relationships based on aggregates,Use foreign keys for associations
-5.2,2,null,null,null,Apply Normalization Principles,
-5.2.1,3,null,null,null,Normalize tables to 3NF,Eliminate redundancy, maintain integrity
-5.2.2,3,null,null,null,Enforce domain constraints,Use CHECK, UNIQUE constraints
-5.3,2,null,null,null,Implement Naming Conventions,
-5.3.1,3,null,null,null,Use domain terminology,Table and column names reflect domain terms
-5.3.2,3,null,null,null,Establish consistent naming standards,Prefixes, singular vs. plural names
-5.4,2,null,null,null,Define Schemas for Bounded Contexts,
-5.4.1,3,null,null,null,Create separate schemas,e.g., sales, logistics, finance
-5.4.2,3,null,null,null,Manage interactions between schemas,Define views or functions for cross-context access
-6.0,1,null,null,null,Implementation,
-6.1,2,null,null,null,Create Database Schemas and Tables,
-6.1.1,3,null,null,null,Implement schemas,Create schemas corresponding to bounded contexts
-6.1.2,3,null,null,null,Create tables for entities and value objects,Define tables with data types and constraints
-6.2,2,null,null,null,Implement Relationships and Constraints,
-6.2.1,3,null,null,null,Define primary keys and foreign keys,Use surrogate keys where appropriate
-6.2.2,3,null,null,null,Implement domain constraints,NOT NULL, UNIQUE, CHECK constraints
-6.2.3,3,null,null,null,Enforce referential integrity,Use ON DELETE and ON UPDATE actions
-6.3,2,null,null,null,Implement Repositories (Data Access Layer),
-6.3.1,3,null,null,null,Write SQL queries and stored procedures,For data retrieval and manipulation
-6.3.2,3,null,null,null,Ensure alignment with domain model,Queries reflect structure and constraints
-6.4,2,null,null,null,Implement Indexes for Performance Optimization,
-6.4.1,3,null,null,null,Index keys and frequently queried columns,Create indexes on foreign keys
-6.4.2,3,null,null,null,Consider composite indexes,For columns used together in queries
-6.5,2,null,null,null,Implement Views and Materialized Views,
-6.5.1,3,null,null,null,Create views reflecting domain concepts,Simplify complex queries
-7.0,1,null,null,null,Data Generation and Population,
-7.1,2,null,null,null,Define Data Scenarios Based on Domain Use Cases,
-7.1.1,3,null,null,null,Identify common business scenarios,High-volume orders, international shipments
-7.1.2,3,null,null,null,Determine data volume and distribution,Reflect realistic distributions
-7.2,2,null,null,null,Generate Artificial Data,
-7.2.1,3,null,null,null,Use data generation tools,Faker for realistic names, addresses
-7.2.2,3,null,null,null,Ensure data consistency with domain rules,Valid relationships, correct formats
-7.3,2,null,null,null,Load Data into Tables,
-7.3.1,3,null,null,null,Prepare data import scripts,Use COPY commands or ETL processes
-7.3.2,3,null,null,null,Execute data loading procedures,Load dimension tables before fact tables
-7.3.3,3,null,null,null,Verify data integrity post-load,Check counts and relationships
-7.4,2,null,null,null,Data Cleansing and Enrichment,
-7.4.1,3,null,null,null,Validate data against domain constraints,Ensure no invalid data
-7.4.2,3,null,null,null,Enrich data with calculated fields,Compute totals, averages
-8.0,1,null,null,null,Testing,
-8.1,2,null,null,null,Domain Validation Testing,
-8.1.1,3,null,null,null,Verify business rules and constraints,Test domain invariants enforced by database
-8.1.2,3,null,null,null,Test aggregate integrity,Ensure operations maintain consistency
-8.2,2,null,null,null,Functional Testing,
-8.2.1,3,null,null,null,Test CRUD operations,Create, read, update, delete for each entity
-8.2.2,3,null,null,null,Test data access patterns,Repositories retrieve and persist correctly
-8.3,2,null,null,null,Integration Testing,
-8.3.1,3,null,null,null,Test interactions between bounded contexts,Verify data consistency across contexts
-8.4,2,null,null,null,Performance Testing,
-8.4.1,3,null,null,null,Analyze query performance,Optimize indexes and queries
-8.4.2,3,null,null,null,Test under load,Simulate high transaction volumes
-8.5,2,null,null,null,Security Testing,
-8.5.1,3,null,null,null,Test access controls,Verify user permissions
-8.5.2,3,null,null,null,Ensure data protection,Test for vulnerabilities
-9.0,1,null,null,null,Documentation,
-9.1,2,null,null,null,Domain Model Documentation,
-9.1.1,3,null,null,null,Detailed entity descriptions,Purpose and properties of each entity
-9.1.2,3,null,null,null,Aggregate definitions,Document composition and rules
-9.1.3,3,null,null,null,Domain services and repositories,Describe roles and interfaces
-9.2,2,null,null,null,Technical Documentation,
-9.2.1,3,null,null,null,Database schema documentation,Include diagrams and definitions
-9.2.2,3,null,null,null,Data dictionary,Detailed information on tables and columns
-9.3,2,null,null,null,User Guides,
-9.3.1,3,null,null,null,Setup and installation instructions,
-9.3.2,3,null,null,null,Guidelines for data entry and maintenance,
-9.4,2,null,null,null,Maintenance Procedures,
-9.4.1,3,null,null,null,Backup and recovery plans,
-9.4.2,3,null,null,null,Data refresh and archiving processes,
-10.0,1,null,null,null,Review and Refinement,
-10.1,2,null,null,null,Review Domain Model,
-10.1.1,3,null,null,null,Validate model against business scenarios,Ensure it reflects domain requirements
-10.1.2,3,null,null,null,Seek feedback (self-assessment),Critically analyze for completeness
-10.2,2,null,null,null,Iterate and Refactor,
-10.2.1,3,null,null,null,Update domain model and schema,Incorporate improvements
-10.2.2,3,null,null,null,Refactor code and queries,Optimize for performance
-10.3,2,null,null,null,Ensure Alignment with DDD Principles,
-10.3.1,3,null,null,null,Maintain ubiquitous language,Consistency across project artifacts
-10.3.2,3,null,null,null,Adhere to bounded contexts,Ensure clear separation
-11.0,1,null,null,null,Deployment,
-11.1,2,null,null,null,Prepare Deployment Plan,
-11.1.1,3,null,null,null,Define deployment steps and rollback procedures,
-11.1.2,3,null,null,null,Schedule deployment activities,
-11.2,2,null,null,null,Deploy Database to Production Environment,
-11.2.1,3,null,null,null,Set up production Docker container,
-11.2.2,3,null,null,null,Migrate database schemas and data,
-11.2.3,3,null,null,null,Configure production settings,
-11.3,2,null,null,null,Post-Deployment Testing,
-11.3.1,3,null,null,null,Verify database functionality,
-11.3.2,3,null,null,null,Monitor performance and address issues,
-12.0,1,null,null,null,Maintenance and Support,
-12.1,2,null,null,null,Monitor Database Health,
-12.1.1,3,null,null,null,Implement monitoring tools,
-12.1.2,3,null,null,null,Regularly review logs and metrics,
-12.2,2,null,null,null,Backup and Recovery,
-12.2.1,3,null,null,null,Automate backups,
-12.2.2,3,null,null,null,Test recovery procedures,
-12.3,2,null,null,null,Performance Tuning,
-12.3.1,3,null,null,null,Optimize queries and indexes,
-12.3.2,3,null,null,null,Update statistics and execution plans,
-12.4,2,null,null,null,Security Management,
-12.4.1,3,null,null,null,Apply security patches,
-12.4.2,3,null,null,null,Review user permissions,
-12.5,2,null,null,null,Ongoing Support,
-12.5.1,3,null,null,null,Provide user support,
-12.5.2,3,null,null,null,Address issues and bugs,
-13.0,1,null,null,null,Project Closure,
-13.1,2,null,null,null,Final Documentation,
-13.1.1,3,null,null,null,Compile project documents,
-13.1.2,3,null,null,null,Archive project artifacts,
-13.2,2,null,null,null,Lessons Learned,
-13.2.1,3,null,null,null,Conduct post-mortem analysis,
-13.2.2,3,null,null,null,Document best practices and improvements,
-13.3,2,null,null,null,Formal Project Closure,
-13.3.1,3,null,null,null,Reflect on project goals achieved,
-13.3.2,3,null,null,null,Plan for future enhancements,
+1.0,1,,,,"Project Initiation and Planning",
+1.1,2,,,,"Define Project Objectives and Scope","Clearly articulate the purpose within Stark Industries"
+1.1.1,3,,,,"Document project goals and domain context",
+1.1.2,3,,,,"Outline project deliverables","Specify tangible outcomes like schema, documentation"
+1.1.3,3,,,,"Identify project constraints and assumptions","Note limitations like time constraints"
+1.2,2,,,,"Establish Roles and Responsibilities","Recognize solo development"
+1.2.1,3,,,,"Acknowledge solo contributor","Plan tasks accordingly"
+1.2.2,3,,,,"Set up personal project management system","Use tools like Trello or Asana"
+1.3,2,,,,"Develop Project Plan",
+1.3.1,3,,,,"Create project timeline with milestones",
+1.3.2,3,,,,"Allocate resources (time, tools)",
+1.3.3,3,,,,"Set realistic deadlines",
+2.0,1,,,,"Understanding the Business Domain",
+2.1,2,,,,"Gather Domain Knowledge","Identify key business processes"
+2.1.1,3,,,,"Identify key business processes","Sales, logistics, procurement, HR, finance"
+2.1.2,3,,,,"Understand domain entities and relationships","Organizations, Accounts, Persons, Users, Employees"
+2.1.3,3,,,,"Research industry practices","Study enterprise workflows in manufacturing"
+2.2,2,,,,"Define the Ubiquitous Language","Compile a glossary of domain terms"
+2.2.1,3,,,,"Compile glossary of domain terms","Ensure consistent terminology"
+2.2.2,3,,,,"Use language throughout the project","In documentation, code, schema"
+2.3,2,,,,"Define Bounded Contexts","Identify subdomains within Stark Industries"
+2.3.1,3,,,,"Identify subdomains","Sales, Inventory, Logistics, HR, Finance"
+2.3.2,3,,,,"Establish boundaries and interactions","Determine data flow between departments"
+3.0,1,,,,"Environment Setup",
+3.1,2,,,,"Install and Configure Docker on macOS 15.0.1",
+3.1.1,3,,,,"Verify system requirements",
+3.1.2,3,,,,"Download and install Docker Desktop",
+3.1.3,3,,,,"Configure Docker settings for optimal performance",
+3.2,2,,,,"Set Up PostgreSQL 12 via Docker",
+3.2.1,3,,,,"Pull PostgreSQL 12 Docker image",
+3.2.2,3,,,,"Create Docker container for PostgreSQL",
+3.2.3,3,,,,"Expose necessary ports and set environment variables",
+3.3,2,,,,"Verify PostgreSQL Installation",
+3.3.1,3,,,,"Connect to PostgreSQL using a client",
+3.3.2,3,,,,"Run test queries to ensure functionality",
+4.0,1,,,,"Domain Modeling",
+4.1,2,,,,"Model Domain Entities and Value Objects",
+4.1.1,3,,,,"Identify core entities","Organization, Account, Person, User, Employee, Product, Order, Logistics"
+4.1.2,3,,,,"Define attributes and behaviors","List properties and rules for each entity"
+4.1.3,3,,,,"Identify value objects","Money, Address, Price"
+4.2,2,,,,"Define Aggregates and Aggregate Roots",
+4.2.1,3,,,,"Group related entities","Order Aggregate, Product Aggregate"
+4.2.2,3,,,,"Enforce invariants within aggregates","Ensure business rules are maintained"
+4.3,2,,,,"Design Domain Services (if applicable)",
+4.3.1,3,,,,"Identify operations outside entities","PricingService, InventoryService"
+4.3.2,3,,,,"Define interfaces and contracts","Specify inputs, outputs, behaviors"
+4.4,2,,,,"Define Repositories",
+4.4.1,3,,,,"Determine data access patterns","How aggregates are retrieved and persisted"
+4.4.2,3,,,,"Define repository interfaces","OrderRepository, ProductRepository"
+4.5,2,,,,"Create Domain Models and Diagrams",
+4.5.1,3,,,,"Use UML or ER diagrams","Visualize entities and relationships"
+4.5.2,3,,,,"Document domain rules and constraints","State rules governing each entity and aggregate"
+5.0,1,,,,"Database Design",
+5.1,2,,,,"Map Domain Model to Database Schema",
+5.1.1,3,,,,"Translate entities to tables","Organization, Account, Person tables"
+5.1.2,3,,,,"Map value objects to table fields","Money fields as DECIMAL with currency codes"
+5.1.3,3,,,,"Implement relationships based on aggregates","Use foreign keys for associations"
+5.2,2,,,,"Apply Normalization Principles",
+5.2.1,3,,,,"Normalize tables to 3NF","Eliminate redundancy, maintain integrity"
+5.2.2,3,,,,"Enforce domain constraints","Use CHECK, UNIQUE constraints"
+5.3,2,,,,"Implement Naming Conventions",
+5.3.1,3,,,,"Use domain terminology","Table and column names reflect domain terms"
+5.3.2,3,,,,"Establish consistent naming standards","Prefixes, singular vs. plural names"
+5.4,2,,,,"Define Schemas for Bounded Contexts",
+5.4.1,3,,,,"Create separate schemas","e.g., sales, logistics, finance"
+5.4.2,3,,,,"Manage interactions between schemas","Define views or functions for cross-context access"
+6.0,1,,,,"Implementation",
+6.1,2,,,,"Create Database Schemas and Tables",
+6.1.1,3,,,,"Implement schemas","Create schemas corresponding to bounded contexts"
+6.1.2,3,,,,"Create tables for entities and value objects","Define tables with data types and constraints"
+6.2,2,,,,"Implement Relationships and Constraints",
+6.2.1,3,,,,"Define primary keys and foreign keys","Use surrogate keys where appropriate"
+6.2.2,3,,,,"Implement domain constraints","NOT NULL, UNIQUE, CHECK constraints"
+6.2.3,3,,,,"Enforce referential integrity","Use ON DELETE and ON UPDATE actions"
+6.3,2,,,,"Implement Repositories (Data Access Layer)",
+6.3.1,3,,,,"Write SQL queries and stored procedures","For data retrieval and manipulation"
+6.3.2,3,,,,"Ensure alignment with domain model","Queries reflect structure and constraints"
+6.4,2,,,,"Implement Indexes for Performance Optimization",
+6.4.1,3,,,,"Index keys and frequently queried columns","Create indexes on foreign keys"
+6.4.2,3,,,,"Consider composite indexes","For columns used together in queries"
+6.5,2,,,,"Implement Views and Materialized Views",
+6.5.1,3,,,,"Create views reflecting domain concepts","Simplify complex queries"
+7.0,1,,,,"Data Generation and Population",
+7.1,2,,,,"Define Data Scenarios Based on Domain Use Cases",
+7.1.1,3,,,,"Identify common business scenarios","High-volume orders, international shipments"
+7.1.2,3,,,,"Determine data volume and distribution","Reflect realistic distributions"
+7.2,2,,,,"Generate Artificial Data",
+7.2.1,3,,,,"Use data generation tools","Faker for realistic names, addresses"
+7.2.2,3,,,,"Ensure data consistency with domain rules","Valid relationships, correct formats"
+7.3,2,,,,"Load Data into Tables",
+7.3.1,3,,,,"Prepare data import scripts","Use COPY commands or ETL processes"
+7.3.2,3,,,,"Execute data loading procedures","Load dimension tables before fact tables"
+7.3.3,3,,,,"Verify data integrity post-load","Check counts and relationships"
+7.4,2,,,,"Data Cleansing and Enrichment",
+7.4.1,3,,,,"Validate data against domain constraints","Ensure no invalid data"
+7.4.2,3,,,,"Enrich data with calculated fields","Compute totals, averages"
+8.0,1,,,,"Testing",
+8.1,2,,,,"Domain Validation Testing",
+8.1.1,3,,,,"Verify business rules and constraints","Test domain invariants enforced by database"
+8.1.2,3,,,,"Test aggregate integrity","Ensure operations maintain consistency"
+8.2,2,,,,"Functional Testing",
+8.2.1,3,,,,"Test CRUD operations","Create, read, update, delete for each entity"
+8.2.2,3,,,,"Test data access patterns","Repositories retrieve and persist correctly"
+8.3,2,,,,"Integration Testing",
+8.3.1,3,,,,"Test interactions between bounded contexts","Verify data consistency across contexts"
+8.4,2,,,,"Performance Testing",
+8.4.1,3,,,,"Analyze query performance","Optimize indexes and queries"
+8.4.2,3,,,,"Test under load","Simulate high transaction volumes"
+8.5,2,,,,"Security Testing",
+8.5.1,3,,,,"Test access controls","Verify user permissions"
+8.5.2,3,,,,"Ensure data protection","Test for vulnerabilities"
+9.0,1,,,,"Documentation",
+9.1,2,,,,"Domain Model Documentation",
+9.1.1,3,,,,"Detailed entity descriptions","Purpose and properties of each entity"
+9.1.2,3,,,,"Aggregate definitions","Document composition and rules"
+9.1.3,3,,,,"Domain services and repositories","Describe roles and interfaces"
+9.2,2,,,,"Technical Documentation",
+9.2.1,3,,,,"Database schema documentation","Include diagrams and definitions"
+9.2.2,3,,,,"Data dictionary","Detailed information on tables and columns"
+9.3,2,,,,"User Guides",
+9.3.1,3,,,,"Setup and installation instructions",
+9.3.2,3,,,,"Guidelines for data entry and maintenance",
+9.4,2,,,,"Maintenance Procedures",
+9.4.1,3,,,,"Backup and recovery plans",
+9.4.2,3,,,,"Data refresh and archiving processes",
+10.0,1,,,,"Review and Refinement",
+10.1,2,,,,"Review Domain Model",
+10.1.1,3,,,,"Validate model against business scenarios","Ensure it reflects domain requirements"
+10.1.2,3,,,,"Seek feedback (self-assessment)","Critically analyze for completeness"
+10.2,2,,,,"Iterate and Refactor",
+10.2.1,3,,,,"Update domain model and schema","Incorporate improvements"
+10.2.2,3,,,,"Refactor code and queries","Optimize for performance"
+10.3,2,,,,"Ensure Alignment with DDD Principles",
+10.3.1,3,,,,"Maintain ubiquitous language","Consistency across project artifacts"
+10.3.2,3,,,,"Adhere to bounded contexts","Ensure clear separation"
+11.0,1,,,,"Deployment",
+11.1,2,,,,"Prepare Deployment Plan",
+11.1.1,3,,,,"Define deployment steps and rollback procedures",
+11.1.2,3,,,,"Schedule deployment activities",
+11.2,2,,,,"Deploy Database to Production Environment",
+11.2.1,3,,,,"Set up production Docker container",
+11.2.2,3,,,,"Migrate database schemas and data",
+11.2.3,3,,,,"Configure production settings",
+11.3,2,,,,"Post-Deployment Testing",
+11.3.1,3,,,,"Verify database functionality",
+11.3.2,3,,,,"Monitor performance and address issues",
+12.0,1,,,,"Maintenance and Support",
+12.1,2,,,,"Monitor Database Health",
+12.1.1,3,,,,"Implement monitoring tools",
+12.1.2,3,,,,"Regularly review logs and metrics",
+12.2,2,,,,"Backup and Recovery",
+12.2.1,3,,,,"Automate backups",
+12.2.2,3,,,,"Test recovery procedures",
+12.3,2,,,,"Performance Tuning",
+12.3.1,3,,,,"Optimize queries and indexes",
+12.3.2,3,,,,"Update statistics and execution plans",
+12.4,2,,,,"Security Management",
+12.4.1,3,,,,"Apply security patches",
+12.4.2,3,,,,"Review user permissions",
+12.5,2,,,,"Ongoing Support",
+12.5.1,3,,,,"Provide user support",
+12.5.2,3,,,,"Address issues and bugs",
+13.0,1,,,,"Project Closure",
+13.1,2,,,,"Final Documentation",
+13.1.1,3,,,,"Compile project documents",
+13.1.2,3,,,,"Archive project artifacts",
+13.2,2,,,,"Lessons Learned",
+13.2.1,3,,,,"Conduct post-mortem analysis",
+13.2.2,3,,,,"Document best practices and improvements",
+13.3,2,,,,"Formal Project Closure",
+13.3.1,3,,,,"Reflect on project goals achieved",
+13.3.2,3,,,,"Plan for future enhancements",
