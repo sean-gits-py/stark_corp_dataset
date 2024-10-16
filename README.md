@@ -1,6 +1,6 @@
-# Stark Industries Corp Dataset
+# Stark Industries Enterprise Datasets & Database
 
-Fictional dataset of Stark companies for database and programming projects.
+Fictional Stark Industries datasets for database and programming projects.
 
 General info:
 - [Accounts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/accounts)
@@ -15,3 +15,6 @@ General info:
 - [Location](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/location)
 - Price
 - Price History
+
+Database CRUD Scripts
+- [Accounts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/accounts)
