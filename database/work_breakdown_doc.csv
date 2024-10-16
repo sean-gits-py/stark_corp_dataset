@@ -1,13 +1,12 @@
 WBS_ID,ID_LVL,Start_Date,End_Date,Status,Description,Notes
-1.0,1,,,,"Project Initiation and Planning",
-1.1,2,,,,"Define Project Objectives and Scope","Clearly articulate the purpose within Stark Industries"
-1.1.1,3,,,,"Document project goals and domain context",
-1.1.2,3,,,,"Outline project deliverables","Specify tangible outcomes like schema, documentation"
-1.1.3,3,,,,"Identify project constraints and assumptions","Note limitations like time constraints"
-1.2.1,3,,,,"Create project timeline with milestones",
-1.2.2,3,,,,"Allocate resources (time, tools)",
-1.2.3,3,,,,"Set realistic deadlines",
-2.0,1,,,,"Understanding the Business Domain",
+1.0,1,07/08/2024,07/31/2024,"Complete","Project Initiation and Planning",
+1.1,2,07/08/2024,07/31/2024,"Define Project Objectives and Scope","Create Silver Data Layer based on Stark Industries enterprise"
+1.1.1,3,07/08/2024,07/31/2024,"Document project goals and domain context",
+1.1.2,3,07/08/2024,07/31/2024,"Outline project deliverables","Specify tangible outcomes like schema, documentation"
+1.1.3,3,07/08/2024,07/31/2024,"Identify project constraints and assumptions","Note limitations like time constraints"
+1.2.1,3,07/08/2024,07/31/2024,"Create project timeline with milestones",
+1.2.2,3,07/08/2024,07/31/2024,"Allocate resources (time, tools)",
+2.0,1,,,,"Understanding Business Domains",
 2.1,2,,,,"Gather Domain Knowledge","Identify key business processes"
 2.1.1,3,,,,"Identify key business processes","Sales, logistics, procurement, HR, finance"
 2.1.2,3,,,,"Understand domain entities and relationships","Organizations, Accounts, Persons, Users, Employees"
