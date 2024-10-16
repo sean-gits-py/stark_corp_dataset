@@ -16,5 +16,5 @@ General info:
 - Price
 - Price History
 
-Database CRUD Scripts
-- [Accounts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/accounts)
+Database (Postgres)
+- [CRUD Scripts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/database)
