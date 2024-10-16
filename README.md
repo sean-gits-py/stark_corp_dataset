@@ -16,5 +16,5 @@ General info:
 - Price
 - Price History
 
-Database (Postgres)
+Postgres DB:
 - [CRUD Scripts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/database)
