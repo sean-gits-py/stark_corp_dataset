@@ -1,8 +1,9 @@
-CREATE TABLE account_status_desc (
-    account_status_id SERIAL PRIMARY KEY,
-    account_status_name VARCHAR(50) NOT NULL,
-    account_status_description TEXT,
-    is_active BOOLEAN DEFAULT TRUE,
+CREATE TABLE person_master (
+    person_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    middle_name VARCHAR(50),
+    last_name VARCHAR(50) NOT NULL,
+    date_of_birth DATE,
     updated_ts TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_by VARCHAR(50) DEFAULT CURRENT_USER,
     created_ts TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
