@@ -1,7 +1,7 @@
-CREATE TABLE account_type_desc (
+CREATE TABLE account_type (
     account_type_id SERIAL PRIMARY KEY,
     account_type_name VARCHAR(50) NOT NULL,
-    account_type_description TEXT,
+    account_type_desc TEXT,
     is_active BOOLEAN DEFAULT TRUE,
     updated_ts TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
     updated_by VARCHAR(50) DEFAULT CURRENT_USER,

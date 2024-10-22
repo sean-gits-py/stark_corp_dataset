@@ -1,4 +1,4 @@
-CREATE TABLE prod_status_master (
+CREATE TABLE product_status_desc (
   prod_status_id SERIAL PRIMARY KEY,
   prod_status_name VARCHAR(50) NOT NULL,
   prod_status_desc TEXT,
