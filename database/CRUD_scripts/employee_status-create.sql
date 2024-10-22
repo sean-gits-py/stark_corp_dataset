@@ -1,4 +1,4 @@
-CREATE TABLE employee_status_desc (
+CREATE TABLE employee_status (
     emp_status_id SERIAL PRIMARY KEY,
     emp_status_name VARCHAR(50) NOT NULL,
     emp_status_desc TEXT,

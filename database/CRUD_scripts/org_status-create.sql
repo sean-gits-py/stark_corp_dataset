@@ -1,4 +1,4 @@
-CREATE TABLE org_status_desc (
+CREATE TABLE org_status (
     org_status_id SERIAL PRIMARY KEY,
     org_status_name VARCHAR(50) NOT NULL,
     org_status_desc TEXT,

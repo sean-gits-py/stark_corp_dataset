@@ -1,4 +1,4 @@
-CREATE TABLE employee_type_desc (
+CREATE TABLE employee_type (
     emp_type_id SERIAL PRIMARY KEY,
     emp_type_name VARCHAR(50) NOT NULL,
     emp_type_desc TEXT,
