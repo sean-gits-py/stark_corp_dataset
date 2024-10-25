@@ -9,3 +9,11 @@ CREATE TABLE silver.address_type (
     updated_ts TIMESTAMP WITH TIME ZONE,
     updated_by VARCHAR(100)
 );
+
+-- Insert basic address types
+INSERT INTO silver.address_type (addr_type_id, addr_type_name, addr_type_desc) VALUES
+(1, 'Primary', 'Primary address for the contact'),
+(2, 'Shipping', 'Shipping address for deliveries'),
+(3, 'Billing', 'Billing address for invoices'),
+(4, 'Business', 'Business location address'),
+(5, 'Residential', 'Residential address');
