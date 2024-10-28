@@ -14,6 +14,7 @@ This data dictionary provides descriptions and details for each field used in th
 | `corp_acct_uuid`   | UUID      | Unique identifier for the corporate account associated with the organization.                         |
 | `parent_org_uuid`  | UUID      | Unique identifier for the parent organization, if applicable. If there is no parent, this field is blank. |
 | `parent_org_name`  | String    | Name of the parent organization, if applicable. If there is no parent, this field is blank.           |
+| `isocode`          | Integer   | Unique identifier for a country, dependent territory, or special area of geographical interest, created by (ISO).        |
 | `updated_ts`       | Timestamp | Timestamp of most recent update to row information, if applicable. If there have been no updates, this field is blank.   |
 | `updated_by`       | String    | Logged username that updated row information, if applicable. If there have been no updates, this field is blank.         |
 | `created_ts`       | Timestamp | Timestamp of creation date for row information.                                                       |
