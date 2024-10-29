@@ -47,6 +47,7 @@ Table person_master {
 
 Table contact_master {
   contact_uuid uuid [pk]
+  name_contact varchar
   person_uuid uuid [ref: > person_master.person_uuid]
   account_uuid uuid [ref: > account_master.account_uuid]
   email_primary varchar
@@ -113,13 +114,19 @@ Table address_master {
   address_type_id int
   address_key int unique
   address_string varchar
-  street varchar
+  street_building_number varchar
+  street_direction varchar
+  street_name varchar
+  street_suffix varchar
+  unit_number varchar
   city varchar
   state_id int [ref: > state.state_id]
   postal_code_id int [ref: > postal_code.postal_code_id]
   country varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table address_type {
@@ -151,7 +158,7 @@ Table subcategory {
   created_by varchar
 }
 
-Table manufacturers {
+Table manufacturer {
   manufacturer_id int [pk, increment]
   org_uuid uuid [ref: > org_master.org_uuid]
   brand_id int [ref: > brand.brand_id]
@@ -165,7 +172,7 @@ Table brand {
   brand_id int [pk, increment]
   name varchar
   org_uuid uuid [ref: > org_master.org_uuid]
-  manufacturer_id int [ref: > manufacturers.manufacturer_id]
+  manufacturer_id int [ref: > manufacturer.manufacturer_id]
   updated_ts timestamp
   updated_by varchar
   created_ts timestamp
