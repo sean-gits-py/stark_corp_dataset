@@ -1,57 +1,118 @@
-Table organization {
-  organization_id int [pk, increment]
-  name varchar
-  type varchar
-  industry varchar
-  created_at datetime
-  updated_at datetime
+Table org_master {
+  org_uuid uuid [pk]
+  org_name varchar
+  org_name_full varchar
+  org_type_id int [ref: > org_type.org_type_id]
+  org_status_id int [ref: > org_status.org_status_id]
+  parent_org_uuid uuid [ref: > org_master.org_uuid]
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
-Table person {
-  person_id int [pk, increment]
-  first_name varchar
-  middle_name varchar
-  last_name varchar
-  suffix varchar
-  preferred_name varchar
+Table org_type {
+  org_type_id uuid [pk]
+  org_type_name varchar
+  org_type_desc text
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
+}
+
+Table org_status {
+  org_status_id uuid [pk]
+  org_status_name varchar
+  org_status_desc text
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
+}
+
+Table person_master {
+  person_uuid uuid [pk]
+  name_first varchar
+  name_middle varchar
+  name_last varchar
+  name_suffix varchar
+  name_pref varchar
   date_of_birth date
-  gender varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
-Table contact {
-  contact_id int [pk, increment]
-  person_id int [ref: > person.person_id]
-  email varchar
-  mobile_phone varchar
-  work_phone varchar
-  created_at datetime
-  updated_at datetime
+Table contact_master {
+  contact_uuid uuid [pk]
+  person_uuid uuid [ref: > person_master.person_uuid]
+  account_uuid uuid [ref: > account_master.account_uuid]
+  email_primary varchar
+  email_secondary varchar
+  phone_primary varchar
+  phone_secondary varchar
+  is_active bool
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
-Table account {
-  account_id int [pk, increment]
-  organization_id int [ref: > organization.organization_id]
-  account_type varchar
-  primary_contact_id int [ref: > contact.contact_id]
+Table user_master {
+  user_uuid uuid [pk]
+  name_user varchar
+  contact_uuid uuid [ref: > contact_master.contact_uuid]
+  is_active bool
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
+}
+
+Table account_master {
+  account_uuid uuid [pk]
+  account_key int unique
+  account_name varchar
+  org_uuid uuid [ref: > org_master.org_uuid]
+  account_type int [ref: > account_type.account_type_id]
+  primary_contact_uuid uuid [ref: > contact_master.contact_uuid]
   channel_id int [ref: > channel.channel_id]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
-Table location {
-  location_id int [pk, increment]
-  account_id int [ref: > account.account_id]
-  contact_id int [ref: - contact.contact_id]
+Table account_type {
+  account_type_id int [pk]
+  account_type_name varchar
+  account_type_desc text
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
+}
+
+Table location_master {
+  location_uuid uuid [pk]
+  location_name varchar
+  address_uuid uuid [ref: > address_master.address_uuid]
+  account_uuid uuid [ref: > account_master.account_uuid]
+  primary_contact_uuid uuid [ref: > contact_master.contact_uuid]
   region_id int [ref: > region.region_id]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
-Table address {
-  address_id int [pk, increment]
-  location_id int [ref: > location.location_id]
+Table address_master {
+  address_uuid uuid [pk]
+  address_type_id int
+  address_key int unique
+  address_string varchar
   street varchar
   city varchar
   state_id int [ref: > state.state_id]
@@ -61,36 +122,54 @@ Table address {
   updated_at datetime
 }
 
-Table categories {
-  category_id int [pk, increment]
-  name varchar
-  created_at datetime
-  updated_at datetime
+Table address_type {
+  address_type_id int [pk]
+  address_type_name varchar
+  address_type_desc text
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
-Table subcategories {
+Table category {
+  category_id int [pk, increment]
+  name_category varchar
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
+}
+
+Table subcategory {
   subcategory_id int [pk, increment]
-  category_id int [ref: > categories.category_id]
-  name varchar
-  created_at datetime
-  updated_at datetime
+  category_id int [ref: > category.category_id]
+  name_subcategory varchar
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table manufacturers {
   manufacturer_id int [pk, increment]
-  organization_id int [ref: > organization.organization_id]
+  org_uuid uuid [ref: > org_master.org_uuid]
   brand_id int [ref: > brand.brand_id]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table brand {
   brand_id int [pk, increment]
   name varchar
-  organization_id int [ref: > organization.organization_id]
+  org_uuid uuid [ref: > org_master.org_uuid]
   manufacturer_id int [ref: > manufacturers.manufacturer_id]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table product {
@@ -98,10 +177,12 @@ Table product {
   brand_id int [ref: > brand.brand_id]
   name varchar
   description text
-  category_id int [ref: > categories.category_id]
+  category_id int [ref: > category.category_id]
   product_type_id int [ref: > product_type.product_type_id]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table sku {
@@ -110,16 +191,20 @@ Table sku {
   sku_code varchar
   price decimal
   availability_status varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table corp_division {
   division_id int [pk, increment]
-  organization_id int [ref: > organization.organization_id]
+  org_uuid uuid [ref: > org_master.org_uuid]
   name varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table corp_dept {
@@ -127,26 +212,33 @@ Table corp_dept {
   division_id int [ref: > corp_division.division_id]
   name varchar
   manager_id int [ref: > corp_employee.employee_id]
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table corp_employee {
   employee_id int [pk, increment]
-  person_id int [ref: > person.person_id]
-  contact_id int [ref: > contact.contact_id]
+  person_id int [ref: > person_master.person_uuid]
+  contact_id int [ref: > contact_master.contact_uuid]
   dept_id int [ref: > corp_dept.dept_id]
   position varchar
   hire_date date
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table channel {
   channel_id int [pk, increment]
   name varchar
   description text
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table date {
@@ -161,24 +253,28 @@ Table date {
 
 Table corp_purchasing {
   purchase_order_id int [pk, increment]
-  supplier_id int [ref: > organization.organization_id]
+  org_uuid uuid [ref: > org_master.org_uuid]
   product_id int [ref: > product.product_id]
   quantity int
   order_date date [ref: > date.date]
   delivery_date date [ref: > date.date]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table txn_ledger {
   transaction_id int [pk, increment]
-  customer_id int [ref: > account.account_id]
+  customer_id int [ref: > account_master.account_uuid]
   sku_id int [ref: > sku.sku_id]
   quantity int
   transaction_date date [ref: > date.date]
   amount decimal
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table settlement_ledger {
@@ -187,28 +283,34 @@ Table settlement_ledger {
   settlement_date date [ref: > date.date]
   amount decimal
   status varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table cust_serv_events {
   event_id int [pk, increment]
-  customer_id int [ref: > account.account_id]
+  customer_id int [ref: > account_master.account_uuid]
   date_id int [ref: > date.date_id]
   description text
   resolution_status varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table fact_order {
   order_id int [pk, increment]
-  customer_id int [ref: > account.account_id]
+  customer_id int [ref: > account_master.account_uuid]
   order_date date [ref: > date.date]
   total_amount decimal
   status varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table invoice {
@@ -217,8 +319,10 @@ Table invoice {
   transaction_id int [ref: > txn_ledger.transaction_id]
   invoice_date date [ref: > date.date]
   amount decimal
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table product_line {
@@ -226,15 +330,19 @@ Table product_line {
   product_id int [ref: > product.product_id]
   sku_id int [ref: > sku.sku_id]
   line_name varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table region {
   region_id int [pk, increment]
   name varchar
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table state {
@@ -242,8 +350,10 @@ Table state {
   name varchar
   abbreviation varchar
   region_id int [ref: > region.region_id]
-  created_at datetime
-  updated_at datetime
+  updated_ts timestamp
+  updated_by varchar
+  created_ts timestamp
+  created_by varchar
 }
 
 Table postal_code {
@@ -257,7 +367,7 @@ Table postal_code {
 Table inventory {
   inventory_id int [pk, increment]
   sku_id int [ref: > sku.sku_id]
-  location_id int [ref: > location.location_id]
+  location_id int [ref: > location_master.location_uuid]
   quantity_on_hand int
   reorder_level int
   created_at datetime
