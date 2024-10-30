@@ -2,7 +2,7 @@
 
 Fictional Stark Industries datasets for database and programming projects.
 
-General info:
+Database Schema & Table info:
 - [Accounts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/accounts)
 - [Products](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/products)
 - [Persons](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/datasets/persons)
@@ -18,3 +18,10 @@ General info:
 
 Postgres DB:
 - [CRUD Scripts](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/database)
+
+
+
+### Database Tables are modeled on a Medallion Architecture hypothetical 'Silver' Layer:
+
+![Databricks Medallion Architecture](https://docs.databricks.com/en/_images/medallion-architecture.png)
+
