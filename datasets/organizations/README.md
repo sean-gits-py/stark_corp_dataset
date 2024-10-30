@@ -5,15 +5,21 @@ This data dictionary provides descriptions and details for each field used in th
 | Field Name         | Data Type | Description                                                                                           |
 |--------------------|-----------|-------------------------------------------------------------------------------------------------------|
 | `org_uuid`         | UUID      | Unique identifier for each organization, serving as the primary key.                                  |
-| `org_name_full`    | String    | The official, full name of the organization.                                                          |
-| `org_name_short`   | String    | The "Doing Business As" (DBA) name or short name of the organization, if applicable.                  |
+| `org_name_full`    | VARCHAR   | The official, full name of the organization.                                                          |
+| `org_name`         | VARCHAR   | The "Doing Business As" (DBA) name or short name of the organization, if applicable.                  |
+| `org_acronym`      | VARCHAR    | The official, full name of the organization.                                                          |
 | `org_type_id`      | Integer   | Numeric identifier representing the type of the organization.                                         |
-| `org_type_desc`    | String    | Description of the organization's type (e.g., Business, Government, Military, Nonprofit, etc.).       |
+| `org_type_desc`    | VARCHAR    | Description of the organization's type (e.g., Business, Government, Military, Nonprofit, etc.).       |
 | `org_status_id`    | Integer   | Numeric identifier representing the current status of the organization.                               |
-| `org_status_desc`  | String    | Description of the organization's status (e.g., Active, Acquired, Inactive, Defunct).                 |
-| `corp_acct_uuid`   | UUID      | Unique identifier for the corporate account associated with the organization.                        |
-| `parent_org_uuid`  | UUID      | Unique identifier for the parent organization, if applicable. If there is no parent, this field is blank. |
-| `parent_org_name`  | String    | Name of the parent organization, if applicable. If there is no parent, this field is blank.           |
+| `org_status_desc`  | VARCHAR    | Description of the organization's status (e.g., Active, Acquired, Inactive, Defunct).                 |
+| `corp_acct_uuid`   | UUID      | Unique identifier for the corporate account associated with the organization.                         |
+| `parent_org_uuid`  | UUID      | Unique identifier for the parent org, if applicable. If there is no parent, this field is blank.      |
+| `parent_org_name`  | VARCHAR    | Name of the parent organization, if applicable. If there is no parent, this field is blank.           |
+| `isocode`          | Integer   | Unique identifier for a country, dependent territory, or special area of geographical interest, created by (ISO).        |
+| `updated_ts`       | Timestamp | Timestamp of most recent update to row information, if applicable. If there have been no updates, this field is blank.   |
+| `updated_by`       | String    | Logged username that updated row information, if applicable. If there have been no updates, this field is blank.         |
+| `created_ts`       | Timestamp | Timestamp of creation date for row information.                                                       |
+| `created_by`       | String    | Logged username that initially created row and it's associated information.                           |
 
 ## Field Values
 
