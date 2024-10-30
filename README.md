@@ -4,6 +4,11 @@ Fictional Stark Industries datasets for database and programming projects.
 
 * [Stark Ind Silver Data Model](https://dbdiagram.io/d/enterprise-data-model-65fda536ae072629ceba2dbb) to see the current data model draft on dbdiagram.io
 
+### Database Tables are modeled on a Medallion Architecture hypothetical 'Silver' Layer:
+
+![Databricks Medallion Architecture](https://docs.databricks.com/en/_images/medallion-architecture.png)
+
+
 ### PostgreSQL Database Schema & Table info:
 
 | Content          | Database Scripts                                                                                      | Dataset & Data Dictionary                                                                            | General Description |
@@ -22,9 +27,3 @@ Fictional Stark Industries datasets for database and programming projects.
 | `Price History`  | [price_hist](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/database/CRUD_scripts)      | Price history (In progress)                                                                          | Price History data table with SQL trigger to track historical updates to product prices. |
 | `Logistics`      | [logistics](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/database/CRUD_scripts)       | Logistics & shipping information (In progress)                                                       | Shipping & order fulfillment data table. |
 | `Settlement`     | [settlement](https://github.com/sean-gits-py/stark_corp_dataset/tree/main/database/CRUD_scripts)      | Settlement & transaction information (In progress)                                                   | Transaction settlement data table. |
-
-
-
-### Database Tables are modeled on a Medallion Architecture hypothetical 'Silver' Layer:
-
-![Databricks Medallion Architecture](https://docs.databricks.com/en/_images/medallion-architecture.png)
